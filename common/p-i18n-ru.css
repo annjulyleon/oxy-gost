@@ -1,0 +1,580 @@
+@charset "UTF-8";
+/**************** Russian Language for PDF ********************/
+/* Title in the TOC page */
+toc-title[empty]:lang(ru):before { 
+	content: "Содержание"; 
+}
+
+/* This string is used in the TOC page header. */
+:root:lang(ru) {
+    string-set: toc-header "Содержание";
+}
+
+/* Title in the Index page */
+index\.groups:lang(ru):before {
+	content: "Содержание";
+}
+
+/* Titles in the TOC. */
+*[class ~= "map/topicref"][is-part] > *[class ~= "map/topicmeta"] > *[class ~= "topic/navtitle"]:lang(ru):before{
+   content:"" counter(toc-part, upper-roman) " " !important;
+}
+*[class ~= "map/topicref"][is-chapter]:not([is-part]) > *[class ~= "map/topicmeta"] > *[class ~= "topic/navtitle"]:lang(ru):before{
+   content:"" counter(toc-chapter) " " !important;
+}
+
+/* Titles in the content.*/ 
+*[class ~= "topic/topic"][is-part] > *[class ~= "topic/title"]:lang(ru):before {
+    content: "" counter(part, upper-roman) ". ";
+}
+*[class ~= "topic/topic"][is-chapter]:not([is-part]) > *[class ~= "topic/title"]:lang(ru):before {
+    content: "" counter(chapter) " ";
+}
+
+/*
+ * ------------------------------------------------
+ * From -domain-hazard-d.css
+ */
+*[class ~= "hazard-d/hazardstatement"]:lang(ru):before {
+    content: url("../img/warning-black30.png") " " "GEFAHR";
+}
+*[class ~= "hazard-d/hazardstatement"][type = "note"]:lang(ru):before {
+    content: url("../img/warning-black30.png") " " "ПРИМЕЧАНИЕ";
+}
+*[class ~= "hazard-d/hazardstatement"][type = "tip"]:lang(ru):before {
+    content: url("../img/warning-black30.png") " " "СОВЕТ";
+}
+*[class ~= "hazard-d/hazardstatement"][type = "fastpath"]:lang(ru):before {
+    content: url("../img/warning-black30.png") " " "FASTPATH";
+}
+*[class ~= "hazard-d/hazardstatement"][type = "restriction"]:lang(ru):before {
+    content: url("../img/warning-black30.png") " " "BESCHRNKUNG";
+}
+*[class ~= "hazard-d/hazardstatement"][type = "remember"]:lang(ru):before {
+    content: url("../img/warning-black30.png") " " "BEDENKEN";
+}
+*[class ~= "hazard-d/hazardstatement"][type = "attention"]:lang(ru):before {
+    content: url("../img/warning-black30.png") " " "ACHTUNG";
+}
+*[class ~= "hazard-d/hazardstatement"][type = "caution"]:lang(ru):before {
+    content: url("../img/warning-black30.png") " " "VORSICHT";
+}
+*[class ~= "hazard-d/hazardstatement"][type = "notice"]:lang(ru):before {
+    content: url("../img/warning-black30.png") " " "HINWEIS";
+}
+*[class ~= "hazard-d/hazardstatement"][type = "danger"]:lang(ru):before {
+    content: url("../img/warning-black30.png") " " "GEFAHR";
+}
+*[class ~= "hazard-d/hazardstatement"][type = "warning"]:lang(ru):before {
+    content: url("../img/warning-black30.png") " " "WARNUNG";
+}
+*[class ~= "hazard-d/hazardstatement"][type = "other"]:lang(ru):before {
+    content: url("../img/warning-black30.png") " " "ANDERE ART VON GEFAHREN";
+}
+
+/*
+ * ------------------------------------------------
+ * From -domain-taskreq-d.css
+ */
+*[class ~= "taskreq-d/noconds"]:lang(ru):before {
+    content: "<Keine Bedingungen>" !important;
+}
+*[class ~= "taskreq-d/prelreqs"]:lang(ru):before {
+    content: "Vorlufige Anforderungen: ";
+}
+*[class ~= "taskreq-d/closereqs"]:lang(ru):before {
+    content: "Abschlussanforderungen: ";
+}
+*[class ~= "taskreq-d/reqconds"]:lang(ru):before {
+    content: "Verhltnisse: ";
+}
+*[class ~= "taskreq-d/reqpers"]:lang(ru):before {
+    content: "Personal: ";
+}
+*[class ~= "taskreq-d/personnel"]:lang(ru):before {
+    content: "Anzahl der Arbeiter: " !important;
+}
+*[class ~= "taskreq-d/perscat"]:lang(ru):before {
+    content: "Klasse: " !important;
+}
+*[class ~= "taskreq-d/perskill"]:lang(ru):before {
+    content: "Fhigkeitslevell: " !important;
+}
+*[class ~= "taskreq-d/esttime"]:lang(ru):before {
+    content: "Zeitschtzung: " !important;
+}
+*[class ~= "taskreq-d/supequip"]:lang(ru):before {
+    content: "Ausrstung: " !important;
+}
+*[class ~= "taskreq-d/nosupeq"]:lang(ru):before {
+    content: "<Keine Ausrstung>";
+}
+*[class ~= "taskreq-d/supplies"]:lang(ru):before {
+    content: "Vorrte: " !important;
+}
+*[class ~= "taskreq-d/nosupply"]:lang(ru):before {
+    content: "<Keine Ersatzteile>";
+}
+*[class ~= "taskreq-d/spares"]:lang(ru):before {
+    content: "Ersatzteile:";
+}
+*[class ~= "taskreq-d/nospares"]:lang(ru):before {
+    content: "<Keine Spares>";
+}
+*[class ~= "taskreq-d/nosafety"]:lang(ru):before {
+    content: "<Keine Sicherheitshinweis>" !important;
+}
+*[class ~= "taskreq-d/safety"]:lang(ru):before {
+    content: url(../../img/caution.png) " Sicherheitshinweis:";
+}
+
+/*
+ * ------------------------------------------------
+ * From -domain-troubleshooting.css
+ */
+*[class ~= 'troubleshooting/condition']:lang(ru):before {
+    content: "Bedingung ";
+}
+*[class ~= 'troubleshooting/cause']:lang(ru):before {
+    content: "Ursache: ";
+}
+*[class ~= 'troubleshooting/remedy']:lang(ru):before {
+    content: "Abhilfe : ";
+}
+*[class ~= 'troubleshooting/responsibleParty']:lang(ru):before {
+    content: "Verantwortliche Partei: ";
+}
+
+/*
+ * ------------------------------------------------
+ * From -glossary.css
+ */
+*[class ~= "glossentry/glossPartOfSpeech"]:lang(ru):before {
+    content: "Wortart: ";
+}
+*[class ~= "glossentry/glossProperty"]:lang(ru):before {
+    content: "Eigenschaft: ";
+}
+*[class ~= "glossentry/glossStatus"]:lang(ru):before {
+    content: "Status: ";
+}
+*[class ~= "glossentry/glossSurfaceForm"]:lang(ru):before {
+    content: "Oberflchenform: ";
+}
+*[class ~= "glossentry/glossUsage"]:lang(ru):before {
+    content: "Verwendung: ";
+}
+
+/*
+ * ------------------------------------------------
+ * From -learning-common-interraction.css
+ */
+*[class ~= "learning-d/lcFeedbackIncorrect"]:lang(ru):before {
+    content: "Wenn nicht korrekt: ";
+}
+*[class ~= "learning-d/lcFeedbackCorrect"]:lang(ru):before {
+    content: "Wenn richtig: ";
+}
+*[class ~= "learning-d/lcOpenAnswer"]:lang(ru):before {
+    content: "Antwort: ";
+}
+*[class ~= "learning-d/lcQuestion"]:lang(ru):before {
+    content: "Frage: ";
+}
+
+/*
+ * -learning-spec-interraction-base.css
+ */
+*[class ~= "learning-d/lcOpenQuestion"]:lang(ru):before {
+    content: "Offene Frage: ";
+}
+*[class ~= "learning-d/lcTrueFalse"]:lang(ru):before {
+    content: "Richtig oder falsch: ";
+}
+*[class ~= "learning-d/lcSingleSelect"]:lang(ru):before {
+    content: "Einzelauswahl: ";
+}
+*[class ~= "learning-d/lcMultipleSelect"]:lang(ru):before {
+    content: "Mehrfachauswahl: ";
+}
+
+*[class ~= "learning-d/lcSequencing"]:lang(ru):before {
+    content: "Reihenfolge: ";
+}
+
+*[class ~= "learning-d/lcMatching"]:lang(ru):before {
+    content: "Stimmen Sie die Auswahl ab: ";
+}
+*[class ~= "learning-d/lcHotspot"]:lang(ru):before {
+    content: "Klicken Sie auf eine Region: ";
+}
+
+/*
+ * -reference.css
+ */
+*[class ~= "reference/refsyn"]:lang(ru):before {
+    content: "Syntax: ";
+}
+@media print {
+    *[class ~= "reference/refsyn"]:lang(ru):before {
+        content: none;
+    }
+}
+
+/*
+ * -table-html-cals.css
+ */
+
+@media print {
+    *[class ~= "topic/table"] > *[class ~= "topic/title"]:lang(ru):before {
+        content: "Таблица " counter(tablecount) " – ";		
+    }
+}
+
+
+/*
+ * -task.css
+ */
+*[class ~= "task/prereq"]:lang(ru):before {
+    content: "Перед началом: ";
+}
+@media print {
+    *[class ~= "task/prereq"]:lang(ru):before {
+        content: none;
+    }
+}
+*[class ~= "task/postreq"]:lang(ru):before {
+    content: "Nchster: ";
+}
+@media print {
+    *[class ~= "task/postreq"]:lang(ru):before {
+        content: none;
+    }
+}
+*[class ~= "task/context"]:lang(ru):before {
+    content: "ber diese Aufgabe: ";
+}
+@media print {
+    *[class ~= "task/context"]:lang(ru):before {
+        content: none;
+    }
+}
+*[class ~= "task/result"]:lang(ru):before {
+    content: "Результат: ";
+}
+@media print {
+    *[class ~= "task/result"]:lang(ru):before {
+        content: none;
+    }
+}
+*[class ~= "task/tasktroubleshooting"]:lang(ru):before,
+*[class ~= "task/steptroubleshooting"]:lang(ru):before {
+    content: "Fehlerbehebung: ";
+}
+@media print {
+    *[class ~= "task/tasktroubleshooting"]:lang(ru):before,
+    *[class ~= "task/steptroubleshooting"]:lang(ru):before {
+        content: none;
+    }
+}
+
+*[class ~= "task/choices"]:lang(ru):before {
+    content: "Выберите одно из: ";
+}
+@media print {
+    *[class ~= "task/choices"]:lang(ru):before {
+        content: none;
+    }
+}
+*[class ~= "task/stepxmp"]:lang(ru):before {
+    content: "Например: ";
+}
+@media print {
+    *[class ~= "task/stepxmp"]:lang(ru):before {
+        display: none;
+    }
+}
+*[class ~= "task/stepresult"]:lang(ru):before {
+    content: "Результат: ";
+}
+@media print {
+    *[class ~= "task/stepresult"]:lang(ru):before {
+        content: none;
+    }
+}
+*[class ~= "task/tutorialinfo"]:lang(ru):before {
+    content: "Tutorial Informationen: ";
+}
+@media print {
+    *[class ~= "task/tutorialinfo"]:lang(ru):before {
+        content: none;
+    }
+}
+
+*[class ~= "topic/searchtitle"]:lang(ru):before {
+    content: "Suchtitel: ";
+}
+*[class ~= "topic/navtitle"]:lang(ru):before {
+    content: "Navigationstitel: ";
+}
+
+@media print {
+    *[class ~= "topic/searchtitle"]:lang(ru):before {
+        content: none;
+    }
+    *[class ~= "topic/navtitle"]:lang(ru):before {
+        content: none;
+    }
+}
+
+*[class ~= "topic/shortdesc"]:lang(ru):before {
+    content: "Kurze Beschreibung: ";
+}
+
+@media print {
+    *[class ~= "topic/shortdesc"]:lang(ru):before {
+        display: none;
+    }
+}
+
+*[class ~= "topic/abstract"]:lang(ru):before {
+    content: "Abstrakt: ";
+}
+@media print {
+    *[class ~= "topic/abstract"]:lang(ru):before {
+        display: none;
+    }
+}
+
+*[class ~= "topic/related-links"]:lang(ru):before {
+    content: "Zugehrige Verweise: ";
+}
+@media print {
+    *[class ~= "topic/related-links"]:lang(ru):before {
+        content: none;
+    }
+}
+
+/*
+ * -topic-body.css
+ */
+*[class ~= "topic/draft-comment"][author]:lang(ru):before {
+    content: "Kommentar von " attr(author) ": ";
+}
+*[class ~= "topic/draft-comment"]:lang(ru):before {
+    content: "Kommentar: ";
+}
+
+*[class ~= "topic/example"] > *[class ~= "topic/title"]:lang(ru):before {
+    content: "Например: ";
+}
+
+/*Рисунок*/
+@media print {
+    *[class ~= "topic/fig"] > *[class ~= "topic/title"]:lang(ru):before {
+        content: "Рисунок " counter(figcount) " – ";
+    }
+}
+
+
+*[class ~= "topic/note"]:lang(ru):before {
+    content: url('../../img/note.png') " Примечание: ";
+}
+*[class ~= "topic/note"][type = "attention"]:lang(ru):before {
+    content: url('../../img/important.png') " Внимание: ";
+}
+*[class ~= "topic/note"][type = "caution"]:lang(ru):before {
+    content: url('../../img/caution.png') " Vorsicht: ";
+}
+*[class ~= "topic/note"][type = "danger"]:lang(ru):before {
+    content: url('../../img/danger.png') " Gefahr: ";
+}
+*[class ~= "topic/note"][type = "fastpath"]:lang(ru):before {
+    content: "Fastpath: ";
+}
+*[class ~= "topic/note"][type = "important"]:lang(ru):before {
+    content: url('../../img/important.png') " Wichtig: ";
+}
+*[class ~= "topic/note"][type = "other"]:lang(ru):before {
+    content: "Other: ";
+}
+*[class ~= "topic/note"][type = "remember"]:lang(ru):before {
+    content: url('../../img/remember.png') " Bedenken: ";
+}
+*[class ~= "topic/note"][type = "restriction"]:lang(ru):before {
+    content: url('../../img/restriction.png') " Beschrnkung: ";
+}
+*[class ~= "topic/note"][type = "tip"]:lang(ru):before {
+    content: url('../../img/tip.png') " Tip: ";
+}
+*[class ~= "topic/note"][type = "notice"]:lang(ru):before {
+    content: url('../../img/important.png') " Beachten: ";
+}
+*[class ~= "topic/note"][type = "warning"]:lang(ru):before {
+    content: url('../../img/warning.png') " Warnung: ";
+}
+*[class ~= "topic/note"][type = "other"][othertype]:lang(ru):before {
+    content: attr(othertype) ": ";
+}
+*[class ~= "topic/note"][type = "trouble"]:lang(ru):before {
+    content: url('../../img/troubleshooting.png') " Fehlerbehebung: ";
+}
+/*
+ * -topic-legacy-conversion.css
+ */
+*[class ~= "topic/required-cleanup"]:lang(ru):before {
+    content: "Erforderliche Bereinigung: ";
+}
+
+/*
+ * -topic-metadata-indexterms
+ */
+*[class ~= "topic/indexterm"] > *[class ~= "indexing-d/index-see"]:lang(ru):before {
+    content: " - см.: ";
+}
+*[class ~= "topic/indexterm"] > *[class ~= "indexing-d/index-see-also"]:lang(ru):before {
+    content: " - см. также: ";
+}
+*[class ~= "topic/indexterm"] > *[class ~= "indexing-d/index-see-also"]:after,
+*[class ~= "topic/indexterm"] > *[class ~= "indexing-d/index-see"]:after {
+    content: " ";
+}
+*[class ~= "indexing-d/index-sort-as"]:lang(ru):before {
+    content: " - sort as: ";
+}
+@media print {	
+	*[class ~= "indexing-d/index-sort-as"]:lang(ru):before {
+	    content: none;
+	}
+}
+
+/*
+ * -topic-related-links-xref.css*/
+ 
+@media print {
+    *[class ~= "topic/xref"][href]:after,
+    *[class ~= "topic/link"][href]:after {
+        /*content: " (на стр. " target-counter(attr(href), page) ")";*/
+		content:none;
+    }
+}
+
+/*
+ * -topic-specialization
+ */
+*[class ~= "topic/data-about"]:lang(ru):before {
+    content: "Daten ber:";
+}
+
+
+/*
+ * -topic-metadata-prolog
+ */
+*[class~="topic/audience"]:lang(ru):before(300) {
+  content: "Audienze: ";
+} 
+*[class~="topic/author"]:lang(ru):before(300) {
+  content: "Autor: ";
+}
+*[class~="topic/brand"]:lang(ru):before(300) {
+  content: "Marke: ";
+}
+*[class~="topic/category"]:lang(ru):before(300) {
+  content: "Kategorie: ";
+}
+*[class~="topic/component"]:lang(ru):before(300) {
+  content: "Komponente: ";
+}
+*[class~="topic/copyright"]:lang(ru):before(300) {
+  content: "Urheberrechte ";
+}
+*[class~="topic/copyryear"]:lang(ru):before(300) {
+  content: "Jahr: ";
+}
+*[class~="topic/copyrholder"]:lang(ru):before(300) {
+  content: "Inhaber: ";
+}
+*[class~="topic/critdates"]:lang(ru):before(300) {
+  content: "Kritische Daten";
+}
+*[class~="topic/created"]:lang(ru):before(300) {
+  content: "Erstellt: ";
+}
+*[class~="topic/revised"]:lang(ru):before(300) {
+  content: "Überarbeitet: ";
+}
+*[class~="topic/featnum"]:lang(ru):before(300) {
+  content: "Feature-Nummer: ";
+}
+*[class~="topic/keywords"]:lang(ru):before(300) {
+  content: "Schlüsselwörter: ";
+}
+*[class~="topic/metadata"]:lang(ru):before(300) {
+  content: "Metadaten";
+}
+*[class~="topic/othermeta"]:lang(ru):before(300) {
+  content: "Andere Metadaten:";
+}
+*[class~="topic/permissions"]:lang(ru):before(300) {
+  content: "Berechtigungen: ";
+}
+*[class~="topic/platform"]:lang(ru):before(300) {
+  content: "Plattform: ";
+}
+*[class~="topic/prodinfo"]:lang(ru):before(300) {
+  content: "Produktinformation ";
+}
+*[class~="topic/prodname"]:lang(ru):before(300) {
+  content: "Produktname: ";
+}
+*[class~="topic/prognum"]:lang(ru):before(300) {
+  content: "Programmnummer: ";
+}
+*[class~="topic/publisher"]:lang(ru):before(300) {
+  content: "Herausgeber: ";
+}
+*[class~="topic/resourceid"]:lang(ru):before(300) {
+  content: "Ressourcen-ID: ";
+}
+*[class~="topic/series"]:lang(ru):before(300) {
+  content: "Serie: ";
+}
+*[class~="topic/source"]:lang(ru):before(300) {
+  content: "Quelle: ";
+}
+*[class~="topic/vrmlist"]:lang(ru):before(300) {
+  content: "Versionen: ";
+}
+*[class~="relmgmt-d/change-historylist"]:lang(ru):before(300){
+    content: "Änderungsverlaufsliste: ";
+}
+*[class~="relmgmt-d/change-item"]:lang(ru):before(300) {
+    content:"Änderung: ";
+}
+*[class~="relmgmt-d/change-person"]:lang(ru):before(300) {
+    content:"Person: ";
+}
+*[class~="relmgmt-d/change-organization"]:lang(ru):before(300) {
+    content:"Organisation: ";
+}
+*[class~="relmgmt-d/change-started"]:lang(ru):before(300) {
+    content:"Begann: ";
+}
+*[class~="relmgmt-d/change-completed"]:lang(ru):before(300) {
+    content:"Abgeschlossen: ";
+}
+*[class~="relmgmt-d/change-summary"]:lang(ru):before(300) {
+    content:"Überblick: ";
+}
+*[class~="relmgmt-d/change-revisionid"]:lang(ru):before(300) {
+    content:"Änderungs-ID: ";
+}
+*[class~="relmgmt-d/change-request-reference"]:lang(ru):before(300) {
+    content:"Referenz der Änderungsanforderung: ";
+}
+*[class~="relmgmt-d/change-request-system"]:lang(ru):before(300) {
+    content:"System: ";
+}
+*[class~="relmgmt-d/change-request-id"]:lang(ru):before(300) {
+    content:"Änderungsanforderung ID: ";
+}

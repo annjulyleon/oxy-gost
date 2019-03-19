@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Создано Microsoft Visio, экспорт SVG schem.svg Страница-1 -->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events"
+		xmlns:v="http://schemas.microsoft.com/visio/2003/SVGExtensions/" width="4.79388in" height="2.57027in"
+		viewBox="0 0 345.159 185.059" xml:space="preserve" color-interpolation-filters="sRGB" class="st4">
+	<v:documentProperties v:langID="1049" v:metric="true" v:viewMarkup="false"/>
+
+	<style type="text/css">
+	<![CDATA[
+		.st1 {fill:#ffffff;stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st2 {fill:#000000;font-family:Calibri;font-size:1.00001em}
+		.st3 {stroke:#000000;stroke-linecap:round;stroke-linejoin:round;stroke-width:0.75}
+		.st4 {fill:none;fill-rule:evenodd;font-size:12px;overflow:visible;stroke-linecap:square;stroke-miterlimit:3}
+	]]>
+	</style>
+
+	<g v:mID="0" v:index="1" v:groupContext="foregroundPage">
+		<title>Страница-1</title>
+		<v:pageProperties v:drawingScale="0.0393701" v:pageScale="0.0393701" v:drawingUnits="24" v:shadowOffsetX="8.50394"
+				v:shadowOffsetY="-8.50394"/>
+		<g id="shape1-1" v:mID="1" v:groupContext="shape" transform="translate(110.926,-147.834)">
+			<title>Лист.1</title>
+			<desc>Джон</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="58.8189" cy="166.634" width="117.64" height="36.8504"/>
+			<rect x="0" y="148.209" width="117.638" height="36.8504" class="st1"/>
+			<text x="44.45" y="170.23" class="st2" v:langID="1049"><v:paragraph v:horizAlign="1"/><v:tabList/>Джон</text>		</g>
+		<g id="shape2-4" v:mID="2" v:groupContext="shape" transform="translate(0.375,-48.6213)">
+			<title>Лист.2</title>
+			<desc>Ремонт</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="58.8189" cy="166.634" width="117.64" height="36.8504"/>
+			<rect x="0" y="148.209" width="117.638" height="36.8504" class="st1"/>
+			<text x="39.98" y="170.23" class="st2" v:langID="1049"><v:paragraph v:horizAlign="1"/><v:tabList/>Ремонт</text>		</g>
+		<g id="shape3-7" v:mID="3" v:groupContext="shape" transform="translate(227.147,-48.6213)">
+			<title>Лист.3</title>
+			<desc>Ремонтная бригада</desc>
+			<v:textBlock v:margins="rect(4,4,4,4)" v:tabSpace="42.5197"/>
+			<v:textRect cx="58.8189" cy="166.634" width="117.64" height="36.8504"/>
+			<rect x="0" y="148.209" width="117.638" height="36.8504" class="st1"/>
+			<text x="8.93" y="170.23" class="st2" v:langID="1049"><v:paragraph v:horizAlign="1"/><v:tabList/>Ремонтная бригада</text>		</g>
+		<g id="shape5-10" v:mID="5" v:groupContext="shape" transform="translate(239.901,120.623) rotate(128.29)">
+			<title>Лист.5</title>
+			<path d="M-0 164.32 A80.7874 63.7795 -38.29 0 0 102.93 164.32" class="st3"/>
+		</g>
+		<g id="shape9-13" v:mID="9" v:groupContext="shape" transform="translate(47.1467,-0.375)">
+			<title>Лист.9</title>
+			<path d="M-0 136.81 A203.657 145.909 -32.55 0 0 255.12 136.81" class="st3"/>
+		</g>
+		<g id="shape10-16" v:mID="10" v:groupContext="shape" transform="translate(365.279,-105.923) rotate(47.6264)">
+			<title>Лист.10</title>
+			<path d="M-0 185.06 A80.7874 73.7008 42.37 0 1 109.35 185.06" class="st3"/>
+		</g>
+	</g>
+</svg>

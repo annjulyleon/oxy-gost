@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="nameofsystem">
+    <title>Общие сведения</title>
+    <body>
+        <p>Наименование программы: <keyword conkeyref="keys/systemFullName"/> (далее по тексту –
+            СПО, подсистема, программа, <keyword conkeyref="keys/systemShortName"/>).</p>
+        <p>Обозначение программы: <keyword conkeyref="keys/systemDecimal"/>. <i>←
+            Обозначение взято из keyword (keys.dita)</i></p> 
+    </body>
+</topic>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="pud-keys">
+    <title>pud-keys</title>
+    <body>
+        <p><keyword id="systemFullName">Набор CSS для ГОСТ ЕСПД</keyword></p>
+        <p><keyword id="systemShortName">GOST-OXY</keyword></p>
+        <p><keyword id="systemBase">XXXX.000000.001.</keyword></p>
+        <p><keyword id="systemDecimal">XXXX.000000.001</keyword></p>
+        <p><keyword id="docDecimal13">XXXX.000000.001 13</keyword></p>
+        <p><keyword id="docDecimal20">XXXX.000000.001 20</keyword></p>
+        <p><keyword id="docDecimal30">XXXX.000000.001 30</keyword></p>
+        <p><keyword id="docDecimal32">XXXX.000000.001 32</keyword></p>
+        <p><keyword id="docDecimal33">XXXX.000000.001 33</keyword></p>
+        <p><keyword id="docDecimal34">XXXX.000000.001 34</keyword></p>
+        <p><keyword id="hash12">11E22FC4</keyword></p>
+        <p><keyword id="systemMainPurporse">Основное назначение набора стилей - возможность выводить PDF по ГОСТ 19.</keyword></p>
+        <p id="systemPurporse">В наборе стилей реализовано: <ul id="ul_wvn_b5p_mgb">
+                <li>титул и лист регистрации, в .SVG формате, подключается через CSS; </li>
+                <li>списки, ссылки и заголовки по ГОСТ; </li>
+                <li>для SVG используются шрифты Gost Type A, включены в папке /project/config/fonts. По умолчанию используются OxygenXML 21, если лежат в этой папке; </li>
+                <li>правила оформления подключаются в файле style.css в корне проекта. В самом style.css устанавливается год на титуле и название компании: <ul id="ul_cpj_k5p_mgb">
+                    <li>/common/gosthtml/ge-cover.css - оформление титула, надписи на титуле; </li>
+                    <li>/common/gosthtml/ge-figures.css - оформление рисунков; </li>
+                    <li>/common/gosthtml/ge-lists.css - оформление списокв; </li>
+                    <li>/common/gosthtml/ge-numbering.css - нумерация заголовков; </li>
+                    <li>/common/gosthtml/ge-page-setup.css - поля, шрифты; </li>
+                    <li>/common/gosthtml/ge-ru.css - русификация надписей Содержание, рисунки и таблицы; </li>
+                    <li>/common/gosthtml/ge-tables.css  - таблицы</li>
+                    <li>/common/p-i18n-ru.css  - русификация, взято из OxygenXML 20.1</li>
+                    </ul></li>
+            </ul></p>
+    </body>
+</topic>

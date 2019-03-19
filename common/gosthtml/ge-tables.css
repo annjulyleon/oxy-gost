@@ -1,0 +1,61 @@
+/* Класс для автоматического определения размеров колонок таблицы, назначается в тэге table*/
+*[class~="topic/table"][outputclass='auto_tbl'] > *[class~="topic/tgroup"] {
+	table-layout: auto !important;
+}
+
+/* Класс для вращения записи в ячейке. 
+Запись должна быть заключена в тэг <p>, 
+класс присваивается тэгу <entry> */
+*[outputclass ~= "rotated"] > * {
+  display: block;
+  transform: rotate(-90deg) !important;
+  text-align: left !important;
+  line-height: 1.0 !important;
+  vertical-align: middle;
+  font-size: 13px;
+  padding: 0; 
+  margin: 0; 
+  hyphens: auto;
+  width: 60px;
+}
+
+/* Класс, который прячет название таблицы */
+*[class~="topic/table"][outputclass='hide-title']  {
+	counter-increment: none !important;
+}
+*[class~="topic/table"][outputclass='hide-title']  > caption {
+	display: none;	
+}
+
+/* Название таблицы */
+*[class~="topic/table"] > caption {
+	text-align: left;
+	font-weight: normal !important;
+	text-indent: 0px;
+	padding-left: 0em;
+	margin-top: 16px;
+}
+
+*[class~="topic/table"] caption{
+    page-break-after: avoid;
+}
+
+*[class~="topic/table"] {
+    page-break-after: auto !important;
+}
+
+/* Текст в ячейках */
+*[class~="topic/thead"], *[class~="topic/entry"] {	
+	text-indent: 0px;
+	line-height: 1.1;
+	padding: 2px;
+}
+
+*[class~="topic/entry"]  > p {	
+	margin: 0px;
+}
+
+/* Отступ после таблицы */
+*[class~="topic/table"] {
+	margin-bottom: 10px;
+}

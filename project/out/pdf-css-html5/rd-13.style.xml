@@ -1,0 +1,2256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<css:root xmlns:chfox="http://www.oxygenxml.com/chemistry/extensions/fop"
+    xmlns:css="http://www.w3.org/1998/CSS" xmlns:dita-ot="dita-ot" xmlns:ditaarch="ditaarch"
+    xmlns:nd="nd" xmlns:oxy="oxy">
+    <css:pages>
+        <css:page>
+            <css:footnote>
+                <css:property name="border-top-style" value="solid"/>
+                <css:property name="border-top-color" value="black"/>
+                <css:property name="border-top-width" value="thin"/>
+                <css:property name="padding-top" value="8pt"/>
+            </css:footnote>
+        </css:page>
+        <css:page>
+            <css:property name="padding-top" value="0.2em"/>
+            <css:property name="padding-bottom" value="0.2em"/>
+            <css:property name="width" value="8.5in"/>
+            <css:property name="height" value="11.0in"/>
+            <css:property name="margin-top" value="1in"/>
+            <css:property name="margin-right" value="1in"/>
+            <css:property name="margin-left" value="1in"/>
+            <css:property name="margin-bottom" value="1in"/>
+        </css:page>
+        <css:page>
+            <css:property name="font-size" value="8pt"/>
+        </css:page>
+        <css:page>
+            <css:property name="width" value="8.27in"/>
+            <css:property name="height" value="11.69in"/>
+            <css:property name="margin-right" value="1cm"/>
+            <css:property name="margin-left" value="2cm"/>
+            <css:property name="margin-bottom" value="2cm"/>
+            <css:property name="margin-top" value="2cm"/>
+        </css:page>
+        <css:page pseudo="left ">
+            <css:top-left>
+                <css:property name="content">
+                    <css:string name="maptitle" position="first"/>
+                    <css:string name="parttitle" position="first"/>
+                    <css:string name="chaptertitle" position="first"/>
+                    <css:string name="sectiontitle" position="first"/>
+                    <css:text> | </css:text>
+                    <css:counter format="decimal" name="page"/>
+                </css:property>
+            </css:top-left>
+        </css:page>
+        <css:page pseudo="right ">
+            <css:top-right>
+                <css:property name="content">
+                    <css:string name="maptitle" position="first"/>
+                    <css:string name="parttitle" position="first"/>
+                    <css:string name="chaptertitle" position="first"/>
+                    <css:string name="sectiontitle" position="first"/>
+                    <css:text> | </css:text>
+                    <css:counter format="decimal" name="page"/>
+                </css:property>
+            </css:top-right>
+        </css:page>
+        <css:page pseudo="left ">
+            <css:top-center>
+                <css:property name="content">
+                    <css:counter format="decimal" name="page"/>
+                    <css:text>&#x2028;</css:text>
+                    <css:text>XXXX.000000.001</css:text>
+                    <css:text>.</css:text>
+                    <css:text>13</css:text>
+                </css:property>
+                <css:property important="true" name="font-family"
+                    value="&#34;Liberation Serif&#34; , &#34;PT Serif&#34; , serif"/>
+                <css:property important="true" name="font-size" value="16px"/>
+            </css:top-center>
+        </css:page>
+        <css:page pseudo="right ">
+            <css:top-center>
+                <css:property name="content">
+                    <css:counter format="decimal" name="page"/>
+                    <css:text>&#x2028;</css:text>
+                    <css:text>XXXX.000000.001</css:text>
+                    <css:text>.</css:text>
+                    <css:text>13</css:text>
+                </css:property>
+                <css:property important="true" name="font-family"
+                    value="&#34;Liberation Serif&#34; , &#34;PT Serif&#34; , serif"/>
+                <css:property important="true" name="font-size" value="16px"/>
+            </css:top-center>
+        </css:page>
+        <css:page pseudo="left ">
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+        </css:page>
+        <css:page pseudo="right ">
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+        </css:page>
+        <css:page pseudo="blank ">
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+        </css:page>
+        <css:page name="front-page">
+            <css:top-left-corner>
+                <css:property name="content"/>
+            </css:top-left-corner>
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-center>
+                <css:property name="content"/>
+            </css:top-center>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+            <css:top-right-corner>
+                <css:property name="content"/>
+            </css:top-right-corner>
+            <css:bottom-left-corner>
+                <css:property name="content"/>
+            </css:bottom-left-corner>
+            <css:bottom-left>
+                <css:property name="content"/>
+            </css:bottom-left>
+            <css:bottom-center>
+                <css:property name="content"/>
+            </css:bottom-center>
+            <css:bottom-right>
+                <css:property name="content"/>
+            </css:bottom-right>
+            <css:bottom-right-corner>
+                <css:property name="content"/>
+            </css:bottom-right-corner>
+        </css:page>
+        <css:page name="table-of-contents">
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-center>
+                <css:property name="content"/>
+            </css:top-center>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+            <css:bottom-left>
+                <css:property name="content"/>
+            </css:bottom-left>
+            <css:bottom-center>
+                <css:property name="content"/>
+            </css:bottom-center>
+            <css:bottom-right>
+                <css:property name="content"/>
+            </css:bottom-right>
+        </css:page>
+        <css:page name="index">
+            <css:top-left-corner>
+                <css:property name="content"/>
+            </css:top-left-corner>
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-center>
+                <css:property name="content"/>
+            </css:top-center>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+            <css:top-right-corner>
+                <css:property name="content"/>
+            </css:top-right-corner>
+            <css:bottom-left-corner>
+                <css:property name="content"/>
+            </css:bottom-left-corner>
+            <css:bottom-left>
+                <css:property name="content"/>
+            </css:bottom-left>
+            <css:bottom-center>
+                <css:property name="content">
+                    <css:counter format="lower-alpha" name="page"/>
+                </css:property>
+            </css:bottom-center>
+            <css:bottom-right>
+                <css:property name="content"/>
+            </css:bottom-right>
+            <css:bottom-right-corner>
+                <css:property name="content"/>
+            </css:bottom-right-corner>
+        </css:page>
+        <css:page name="index">
+            <css:property name="column-count" value="2"/>
+            <css:property name="column-fill" value="auto"/>
+        </css:page>
+        <css:page name="chapter"/>
+        <css:page name="matter-page">
+            <css:top-left-corner>
+                <css:property name="content"/>
+            </css:top-left-corner>
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-center>
+                <css:property name="content"/>
+            </css:top-center>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+            <css:top-right-corner>
+                <css:property name="content"/>
+            </css:top-right-corner>
+            <css:bottom-left-corner>
+                <css:property name="content"/>
+            </css:bottom-left-corner>
+            <css:bottom-left>
+                <css:property name="content"/>
+            </css:bottom-left>
+            <css:bottom-center>
+                <css:property name="content"/>
+            </css:bottom-center>
+            <css:bottom-right>
+                <css:property name="content"/>
+            </css:bottom-right>
+            <css:bottom-right-corner>
+                <css:property name="content"/>
+            </css:bottom-right-corner>
+        </css:page>
+        <css:page name="portrait-page">
+            <css:property name="orientation" value="portrait"/>
+        </css:page>
+        <css:page name="lp">
+            <css:property name="background-image"
+                value="url('file:/D:/docs/sample/common/gosthtml/espd-reglist.svg')"/>
+            <css:property name="background-position" value="center"/>
+        </css:page>
+        <css:page name="front-page">
+            <css:property name="background-image"
+                value="url('file:/D:/docs/sample/common/gosthtml/espd-cover.svg')"/>
+            <css:property name="background-position" value="center"/>
+        </css:page>
+        <css:page name="front-page">
+            <css:left-top>
+                <css:property name="content">
+                    <css:text>УТВЕРЖДЕН &#x2028;</css:text>
+                    <css:text>XXXX.000000.001</css:text>
+                    <css:text>-ЛУ</css:text>
+                </css:property>
+                <css:property name="overflow" value="initial"/>
+                <css:property name="font-size" value="16px"/>
+                <css:property name="text-align" value="left"/>
+                <css:property name="padding-left" value="40px"/>
+                <css:property name="padding-top" value="10px"/>
+                <css:property name="white-space" value="nowrap"/>
+                <css:property important="true" name="font-family"
+                    value="&#34;Liberation Serif&#34; , &#34;PT Serif&#34; , serif"/>
+            </css:left-top>
+        </css:page>
+        <css:page name="front-page">
+            <css:bottom-center>
+                <css:property name="content">
+                    <css:text>2019</css:text>
+                </css:property>
+                <css:property important="true" name="font-family"
+                    value="&#34;Liberation Serif&#34; , &#34;PT Serif&#34; , serif"/>
+                <css:property name="font-size" value="16px"/>
+            </css:bottom-center>
+        </css:page>
+        <css:page name="front-page">
+            <css:top-center>
+                <css:property name="content">
+                    <css:text>МИНИСТЕРСТВО ТАПОК И НОСКОВ</css:text>
+                </css:property>
+                <css:property important="true" name="font-family"
+                    value="&#34;Liberation Serif&#34; , &#34;PT Serif&#34; , serif"/>
+                <css:property name="font-size" value="16px"/>
+            </css:top-center>
+        </css:page>
+        <css:page name="table-of-contents" pseudo="left ">
+            <css:top-left>
+                <css:property name="content">
+                    <css:string name="toc-header" position="first"/>
+                    <css:text> | </css:text>
+                    <css:counter format="lower-roman" name="page"/>
+                </css:property>
+            </css:top-left>
+        </css:page>
+        <css:page name="table-of-contents" pseudo="right ">
+            <css:top-right>
+                <css:property name="content">
+                    <css:string name="toc-header" position="first"/>
+                    <css:text> | </css:text>
+                    <css:counter format="lower-roman" name="page"/>
+                </css:property>
+            </css:top-right>
+        </css:page>
+        <css:page name="landscape-page" pseudo="right ">
+            <css:property name="orientation" value="landscape"/>
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-center>
+                <css:property name="content"/>
+            </css:top-center>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+            <css:right-bottom>
+                <css:property name="content">
+                    <css:reference-orientation-container-pmb reference-orientation="270">
+                        <css:string name="maptitle" position="first"/>
+                        <css:string name="parttitle" position="first"/>
+                        <css:string name="chaptertitle" position="first"/>
+                        <css:string name="sectiontitle" position="first"/>
+                        <css:text> | </css:text>
+                        <css:counter format="decimal" name="page"/>
+                    </css:reference-orientation-container-pmb>
+                </css:property>
+                <css:property name="vertical-align" value="middle"/>
+                <css:property name="text-align" value="right"/>
+            </css:right-bottom>
+        </css:page>
+        <css:page name="landscape-page" pseudo="left ">
+            <css:property name="orientation" value="landscape"/>
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+            <css:top-center>
+                <css:property name="content"/>
+            </css:top-center>
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+            <css:right-top>
+                <css:property name="content">
+                    <css:reference-orientation-container-pmb reference-orientation="270">
+                        <css:string name="maptitle" position="first"/>
+                        <css:string name="parttitle" position="first"/>
+                        <css:string name="chaptertitle" position="first"/>
+                        <css:string name="sectiontitle" position="first"/>
+                        <css:text> | </css:text>
+                        <css:counter format="decimal" name="page"/>
+                    </css:reference-orientation-container-pmb>
+                </css:property>
+                <css:property name="vertical-align" value="middle"/>
+                <css:property name="text-align" value="left"/>
+            </css:right-top>
+        </css:page>
+        <css:page name="table-of-contents" pseudo="left ">
+            <css:top-center>
+                <css:property name="content">
+                    <css:counter format="decimal" name="page"/>
+                    <css:text>&#x2028;</css:text>
+                    <css:text>XXXX.000000.001</css:text>
+                    <css:text>.</css:text>
+                    <css:text>13</css:text>
+                </css:property>
+                <css:property important="true" name="font-family"
+                    value="&#34;Liberation Serif&#34; , &#34;PT Serif&#34; , serif"/>
+                <css:property important="true" name="font-size" value="16px"/>
+            </css:top-center>
+        </css:page>
+        <css:page name="chapter" pseudo="left ">
+            <css:top-center>
+                <css:property name="content">
+                    <css:counter format="decimal" name="page"/>
+                    <css:text>&#x2028;</css:text>
+                    <css:text>XXXX.000000.001</css:text>
+                    <css:text>.</css:text>
+                    <css:text>13</css:text>
+                </css:property>
+                <css:property important="true" name="font-family"
+                    value="&#34;Liberation Serif&#34; , &#34;PT Serif&#34; , serif"/>
+                <css:property important="true" name="font-size" value="16px"/>
+            </css:top-center>
+        </css:page>
+        <css:page name="table-of-contents" pseudo="right ">
+            <css:top-center>
+                <css:property name="content">
+                    <css:counter format="decimal" name="page"/>
+                    <css:text>&#x2028;</css:text>
+                    <css:text>XXXX.000000.001</css:text>
+                    <css:text>.</css:text>
+                    <css:text>13</css:text>
+                </css:property>
+                <css:property important="true" name="font-family"
+                    value="&#34;Liberation Serif&#34; , &#34;PT Serif&#34; , serif"/>
+                <css:property important="true" name="font-size" value="16px"/>
+            </css:top-center>
+        </css:page>
+        <css:page name="chapter" pseudo="right ">
+            <css:top-center>
+                <css:property name="content">
+                    <css:counter format="decimal" name="page"/>
+                    <css:text>&#x2028;</css:text>
+                    <css:text>XXXX.000000.001</css:text>
+                    <css:text>.</css:text>
+                    <css:text>13</css:text>
+                </css:property>
+                <css:property important="true" name="font-family"
+                    value="&#34;Liberation Serif&#34; , &#34;PT Serif&#34; , serif"/>
+                <css:property important="true" name="font-size" value="16px"/>
+            </css:top-center>
+        </css:page>
+        <css:page name="table-of-contents" pseudo="first left ">
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+        </css:page>
+        <css:page name="table-of-contents" pseudo="first right ">
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+        </css:page>
+        <css:page name="chapter" pseudo="first left ">
+            <css:top-left>
+                <css:property name="content"/>
+            </css:top-left>
+        </css:page>
+        <css:page name="chapter" pseudo="first right ">
+            <css:top-right>
+                <css:property name="content"/>
+            </css:top-right>
+        </css:page>
+    </css:pages>
+    <css:page-sequence initial-page-number="1" page="front-page">
+        <html css:counter-reset=" page 1" css:display="block"
+            css:font-family="Liberation Serif, PT Serif, serif" css:font-size="12px"
+            xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/rd-13.ditamap">
+            <head css:border-bottom-color="white" css:border-bottom-style="solid"
+                css:border-bottom-width="1pt" css:border-left-color="white"
+                css:border-left-style="solid" css:border-left-width="1pt"
+                css:border-right-color="white" css:border-right-style="solid"
+                css:border-right-width="1pt" css:border-top-color="white"
+                css:border-top-style="solid" css:border-top-width="1pt" css:display="none"
+                css:padding-bottom="1em" css:padding-left="1em" css:padding-right="1em"
+                css:padding-top="1em">
+                <meta charset="UTF-8" css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="1px"/>
+                <meta content="(C) Copyright 2019" css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="copyright"/>
+                <meta content="(C) Copyright 2019" css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="1px"
+                    name="DC.rights.owner"/>
+                <meta content="map" css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="DC.type"/>
+                <meta content="HTML5" css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="DC.format"/>
+                <meta content="ru" css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller" css:margin-bottom="1px"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="1px" name="DC.language"/>
+                <link css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller"
+                    css:link="file:/C:/Program Files/Oxygen XML Editor 21/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page-print.css"
+                    css:margin-bottom="1px" css:margin-left="0" css:margin-right="0"
+                    css:margin-top="1px"
+                    href="file:/C:/Program Files/Oxygen XML Editor 21/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page-print.css"
+                    rel="stylesheet" type="text/css"/>
+                <link css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller"
+                    css:link="file:/C:/Program Files/Oxygen XML Editor 21/frameworks/dita/css/print/p-dita.css"
+                    css:margin-bottom="1px" css:margin-left="0" css:margin-right="0"
+                    css:margin-top="1px"
+                    href="file:/C:/Program Files/Oxygen XML Editor 21/frameworks/dita/css/print/p-dita.css"
+                    rel="stylesheet" type="text/css"/>
+                <link css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller"
+                    css:link="file:/C:/Program Files/Oxygen XML Editor 21/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.editlink/pdf-css.css"
+                    css:margin-bottom="1px" css:margin-left="0" css:margin-right="0"
+                    css:margin-top="1px"
+                    href="file:/C:/Program Files/Oxygen XML Editor 21/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.editlink/pdf-css.css"
+                    rel="stylesheet" type="text/css"/>
+                <link css:background-color="rgb(238 , 238 , 255)"
+                    css:border-bottom-color="rgb(204 , 204 , 238)" css:border-bottom-style="solid"
+                    css:border-bottom-width="1px" css:border-left-color="rgb(204 , 204 , 238)"
+                    css:border-left-style="solid" css:border-left-width="1px"
+                    css:border-right-color="rgb(204 , 204 , 238)" css:border-right-style="solid"
+                    css:border-right-width="1px" css:border-top-color="rgb(204 , 204 , 238)"
+                    css:border-top-style="solid" css:border-top-width="1px" css:display="none"
+                    css:font-family="monospace" css:font-size="smaller"
+                    css:link="file:/D:/docs/sample/project/style.css" css:margin-bottom="1px"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="1px"
+                    href="file:/D:/docs/sample/project/style.css" rel="stylesheet" type="text/css"/>
+                <title css:border-bottom-color="rgb(0 , 68 , 119)" css:border-bottom-style="solid"
+                    css:border-bottom-width="2px" css:color="rgb(0 , 34 , 68)" css:display="none"
+                    css:font-size="2.2em" css:font-weight="bold" css:margin-bottom="0.5em"
+                    css:margin-left="0" css:margin-right="0" css:margin-top="0.5em"
+                            ><css:oxy-pdf-meta-title><css:content source="text"
+                        /></css:oxy-pdf-meta-title>Описание программы</title>
+            </head>
+            <body class="wh_topic_page" css:display="block" css:font-size="11.5pt"
+                css:margin-left="auto" css:margin-right="auto">
+                <div class="wh_content_area" css:display="block">
+                    <div class="wh_topic_body" css:display="block">
+                        <div class="wh_topic_content" css:display="block">
+                            <div xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
+                                cascade="merge" class="- map/map map" css:bookmark-level="1"
+                                css:counter-reset=" toc-chapter 0 toc-section1 0 toc-section2 0 toc-section3 0 toc-section4 0 chapter 0 section1 0 section2 0 section3 0 section4 0 figcount 0 tablecount 0"
+                                css:display="block" ditaarch:ditaarchversion="1.3"
+                                domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
+                                lang="ru" otherprops="OxygenXML" product="Набор CSS для ГОСТ ЕСПД"
+                                props="13" rev="XXXX.000000.001" title="Описание программы"
+                                xml:lang="ru">
+                                <css:string-set name="maptitle">
+                                    <css:text>Описание программы</css:text>
+                                </css:string-set>
+                                <css:bookmark-label>
+                                    <css:content source="before"/>
+                                    <css:text>Описание программы</css:text>
+                                </css:bookmark-label>
+                                <div class="- front-page/front-page front-page" css:display="block">
+                                    <div class="- front-page/front-page-title front-page-title"
+                                        css:display="block"
+                                        css:font-family="Liberation Serif, PT Serif, serif"
+                                        css:font-size="16px" css:font-style="normal"
+                                        css:margin-top="3in" css:text-align="center"
+                                        css:text-transform="none"><css:before css:display="block"
+                                            css:text-transform="uppercase"
+                                                ><css:text>OxygenXML</css:text></css:before><css:before
+                                            css:display="block" css:text-transform="uppercase"
+                                                ><css:text>Набор CSS для ГОСТ
+                                            ЕСПД</css:text></css:before><css:before
+                                            css:display="block" css:text-transform="uppercase"
+                                                ><css:text> </css:text></css:before>Описание
+                                            программы<css:after css:display="block"
+                                                ><css:text>XXXX.000000.001</css:text><css:text>.</css:text><css:text>13</css:text></css:after><css:after
+                                            css:display="block"><css:text>&#x2028;Листов
+                                                </css:text><css:counter format="decimal"
+                                                name="pages"/></css:after></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </html>
+    </css:page-sequence>
+    <css:page-sequence xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations"
+        xmlns:oxy="http://www.oxygenxml.com/extensions/author" page="chapter">
+        <html css:counter-reset=" page 1" css:display="block"
+            css:font-family="Liberation Serif, PT Serif, serif" css:font-size="12px"
+            xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/rd-13.ditamap">
+            <body class="wh_topic_page" css:display="block" css:font-size="11.5pt"
+                css:margin-left="auto" css:margin-right="auto">
+                <div class="wh_content_area" css:display="block">
+                    <div class="wh_topic_body" css:display="block">
+                        <div class="wh_topic_content" css:display="block">
+                            <div xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
+                                cascade="merge" class="- map/map map" css:bookmark-level="1"
+                                css:counter-reset=" toc-chapter 0 toc-section1 0 toc-section2 0 toc-section3 0 toc-section4 0 chapter 0 section1 0 section2 0 section3 0 section4 0 figcount 0 tablecount 0"
+                                css:display="block" ditaarch:ditaarchversion="1.3"
+                                domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
+                                lang="ru" otherprops="OxygenXML" product="Набор CSS для ГОСТ ЕСПД"
+                                props="13" rev="XXXX.000000.001" title="Описание программы"
+                                xml:lang="ru">
+                                <article aria-labelledby="ariaid-title1" break-before="true"
+                                    class="- topic/topic topic nested0 hide-bm-labels before-toc"
+                                    css:counter-reset="section1" css:display="block"
+                                    css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="unique_1"
+                                    is-chapter="true" nd:nd-id="preface-13" oid="preface-13"
+                                    outputclass="hide-bm-labels before-toc"
+                                    oxy:topicref-class="- map/topicref ">
+                                    <h1 class="- topic/title title topictitle1"
+                                        css:bookmark-level="1" css:display="block"
+                                        css:font-size="16px" css:font-weight="bold"
+                                        css:margin-bottom="1em" css:margin-left="0"
+                                        css:margin-right="0" css:margin-top="0"
+                                        css:oxy-pdf-tag-type="H1" css:padding-left="0px"
+                                        css:page-break-after="avoid" css:text-align="center"
+                                        css:text-transform="uppercase" id="ariaid-title1"
+                                            ><css:string-set name="sectiontitle"
+                                            ><css:text/></css:string-set><css:bookmark-label><css:content
+                                                source="before"/><css:content source="text"
+                                            /></css:bookmark-label><css:string-set
+                                            name="chaptertitle"><css:text> | </css:text><css:counter
+                                                name="chapter" value="0"/><css:text> -
+                                                </css:text><css:content source="text"
+                                            /></css:string-set><css:before css:display="inline"
+                                        />Аннотация</h1>
+                                    <div class="- topic/body body" css:display="block"
+                                        css:margin-bottom="0" css:margin-left="0"
+                                        css:margin-right="0" css:margin-top="0">
+                                        <p class="- topic/p p" css:display="block"
+                                            css:font-size="16px" css:line-height="1.5"
+                                            css:margin-bottom="0px" css:margin-left="0px"
+                                            css:margin-right="0px" css:margin-top="0px"
+                                            css:text-align="justify" css:text-indent="32px">В данном
+                                            программном документе приведено описание программы <span
+                                                class="- topic/keyword keyword" css:display="inline"
+                                                >Набор CSS для ГОСТ ЕСПД</span>. <span
+                                                class="- topic/keyword keyword" css:display="inline"
+                                                >XXXX.000000.001</span> (далее по тексту – СПО,
+                                            подсистема, программа, <span
+                                                class="- topic/keyword keyword" css:display="inline"
+                                                >GOST-OXY</span>), входящей в состав ЕГИС ОТБ. <span
+                                                class="- topic/keyword keyword" css:display="inline"
+                                                >Основное назначение набора стилей - возможность
+                                                выводить PDF по ГОСТ 19.</span>
+                                        </p>
+                                        <p class="- topic/p p" css:display="block"
+                                            css:font-size="16px" css:line-height="1.5"
+                                            css:margin-bottom="0px" css:margin-left="0px"
+                                            css:margin-right="0px" css:margin-top="0px"
+                                            css:text-align="justify" css:text-indent="32px">В
+                                            разделе «Общие сведения» приведено описание набора,
+                                            структура папок и комментарии по использованию. </p>
+                                        <p class="- topic/p p" css:display="block"
+                                            css:font-size="16px" css:line-height="1.5"
+                                            css:margin-bottom="0px" css:margin-left="0px"
+                                            css:margin-right="0px" css:margin-top="0px"
+                                            css:text-align="justify" css:text-indent="32px">В
+                                            разделе «Примеры» приведены примеры ссылок. </p>
+                                        <div class="- topic/p p" css:display="block"
+                                            css:font-size="16px" css:line-height="1.5"
+                                            css:margin-bottom="0px" css:margin-left="0px"
+                                            css:margin-right="0px" css:margin-top="0px"
+                                            css:text-align="justify" css:text-indent="32px"
+                                            >Оформление программного документа «Описание программы»
+                                            произведено по требованиям ЕСПД: <ul
+                                                class="- topic/ul ul" css:display="block"
+                                                css:list-style-type="disc" css:margin-bottom="0px"
+                                                css:margin-top="0px"
+                                                id="unique_1_Connect_42_ul_p35_ndv_2gb"
+                                                nd:nd-id="ul_p35_ndv_2gb">
+                                                <li class="- topic/li li" css:display="list-item"
+                                                  css:list-style-type="none" css:margin-bottom="0px"
+                                                  css:margin-left="32px" css:margin-top="0px"
+                                                  css:text-indent="0px"><css:before
+                                                  css:display="inline" css:margin-right="5px"
+                                                  css:text-align="left"
+                                                  ><css:text>–</css:text></css:before>ГОСТ 19.101-77
+                                                  − ЕСПД. Виды программ и программных документов; </li>
+                                                <li class="- topic/li li" css:display="list-item"
+                                                  css:list-style-type="none" css:margin-bottom="0px"
+                                                  css:margin-left="32px" css:margin-top="0px"
+                                                  css:text-indent="0px"><css:before
+                                                  css:display="inline" css:margin-right="5px"
+                                                  css:text-align="left"
+                                                  ><css:text>–</css:text></css:before>ГОСТ 19.103-77
+                                                  − ЕСПД. Обозначения программ и программных
+                                                  документов; </li>
+                                                <li class="- topic/li li" css:display="list-item"
+                                                  css:list-style-type="none" css:margin-bottom="0px"
+                                                  css:margin-left="32px" css:margin-top="0px"
+                                                  css:text-indent="0px"><css:before
+                                                  css:display="inline" css:margin-right="5px"
+                                                  css:text-align="left"
+                                                  ><css:text>–</css:text></css:before>ГОСТ 19.104-78
+                                                  − ЕСПД. Основные надписи; </li>
+                                                <li class="- topic/li li" css:display="list-item"
+                                                  css:list-style-type="none" css:margin-bottom="0px"
+                                                  css:margin-left="32px" css:margin-top="0px"
+                                                  css:text-indent="0px"><css:before
+                                                  css:display="inline" css:margin-right="5px"
+                                                  css:text-align="left"
+                                                  ><css:text>–</css:text></css:before>ГОСТ 19.105-78
+                                                  − ЕСПД. Общие требования к программным документам; </li>
+                                                <li class="- topic/li li" css:display="list-item"
+                                                  css:list-style-type="none" css:margin-bottom="0px"
+                                                  css:margin-left="32px" css:margin-top="0px"
+                                                  css:text-indent="0px"><css:before
+                                                  css:display="inline" css:margin-right="5px"
+                                                  css:text-align="left"
+                                                  ><css:text>–</css:text></css:before>ГОСТ 19.106-78
+                                                  − ЕСПД. Требования к программным документам,
+                                                  выполненным печатным способом; </li>
+                                                <li class="- topic/li li" css:display="list-item"
+                                                  css:list-style-type="none" css:margin-bottom="0px"
+                                                  css:margin-left="32px" css:margin-top="0px"
+                                                  css:text-indent="0px"><css:before
+                                                  css:display="inline" css:margin-right="5px"
+                                                  css:text-align="left"
+                                                  ><css:text>–</css:text></css:before>ГОСТ 19.402-78
+                                                  − ЕСПД. Описание программы. Требования к
+                                                  содержанию и оформлению. </li>
+                                            </ul></div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </html>
+    </css:page-sequence>
+    <css:page-sequence page="table-of-contents">
+        <html css:counter-reset=" page 1" css:display="block"
+            css:font-family="Liberation Serif, PT Serif, serif" css:font-size="12px"
+            xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/rd-13.ditamap">
+            <body class="wh_topic_page" css:display="block" css:font-size="11.5pt"
+                css:margin-left="auto" css:margin-right="auto">
+                <div class="wh_content_area" css:display="block">
+                    <div class="wh_topic_body" css:display="block">
+                        <div class="wh_topic_content" css:display="block">
+                            <div xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
+                                cascade="merge" class="- map/map map" css:bookmark-level="1"
+                                css:counter-reset=" toc-chapter 0 toc-section1 0 toc-section2 0 toc-section3 0 toc-section4 0 chapter 0 section1 0 section2 0 section3 0 section4 0 figcount 0 tablecount 0"
+                                css:display="block" ditaarch:ditaarchversion="1.3"
+                                domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
+                                lang="ru" otherprops="OxygenXML" product="Набор CSS для ГОСТ ЕСПД"
+                                props="13" rev="XXXX.000000.001" title="Описание программы"
+                                xml:lang="ru">
+                                <div class="- toc/toc toc" css:display="block">
+                                    <div class="- toc/title title" css:bookmark-level="1"
+                                        css:display="block" css:font-size="16px"
+                                        css:margin-bottom="1em" css:text-align="center"
+                                        css:text-transform="uppercase" empty="true">
+                                        <css:before css:display="inline">
+                                            <css:text>Содержание</css:text>
+                                        </css:before>
+                                        <css:bookmark-label>
+                                            <css:content source="before"/>
+                                        </css:bookmark-label>
+                                    </div>
+                                    <div class="- topic/title title" css:display="none"
+                                        css:page-break-after="avoid">Описание программы</div>
+                                    <div class="- map/topicref topicref"
+                                        css:counter-reset="toc-section1" css:display="block"
+                                        css:font-weight="bold" css:margin-bottom="0.5em"
+                                        css:margin-left="0" css:margin-top="0.5em" href="#unique_2"
+                                        is-chapter="true" otherprops="OxygenXML"
+                                        product="Набор CSS для ГОСТ ЕСПД" props="13"
+                                        rev="XXXX.000000.001" type="topic">
+                                        <div class="- map/topicmeta topicmeta"
+                                            css:border-bottom-color="transparent"
+                                            css:border-bottom-style="none"
+                                            css:border-left-color="transparent"
+                                            css:border-left-style="none"
+                                            css:border-right-color="transparent"
+                                            css:border-right-style="none"
+                                            css:border-top-color="transparent"
+                                            css:border-top-style="none" css:display="block"
+                                            css:margin-bottom="0" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="0"
+                                            css:padding-bottom="0" css:padding-left="0"
+                                            css:padding-right="0" css:padding-top="0"
+                                            css:text-align-last="justify"
+                                            data-topic-id="nameofsystem">
+                                            <css:before css:display="inline"
+                                                css:font-weight="normal" css:position="static">
+                                                <css:counter name="toc-chapter" value="1"/>
+                                                <css:text> </css:text>
+                                            </css:before>
+                                            <div appid="nameofsystem"
+                                                class="- topic/resourceid resourceid"
+                                                css:display="none" oxy-source="topic"/>
+                                            <div class="- topic/navtitle navtitle"
+                                                css:display="inline" css:link="#unique_2"
+                                                href="#unique_2">Общие сведения<css:after
+                                                  css:display="inline" css:link="#unique_2"
+                                                  ><css:leader pattern="."/><css:target-counter
+                                                  url-fragment="unique_2"/></css:after></div>
+                                        </div>
+                                        <div class="- map/topicref topicref"
+                                            css:counter-reset="toc-section2" css:display="block"
+                                            css:font-weight="normal" css:margin-bottom="0.5em"
+                                            css:margin-left="2em" css:margin-top="0.5em"
+                                            href="#unique_3" navtitle="Использование"
+                                            otherprops="OxygenXML" product="Набор CSS для ГОСТ ЕСПД"
+                                            props="13" rev="XXXX.000000.001" type="topic">
+                                            <div class="- map/topicmeta topicmeta"
+                                                css:border-bottom-color="transparent"
+                                                css:border-bottom-style="none"
+                                                css:border-left-color="transparent"
+                                                css:border-left-style="none"
+                                                css:border-right-color="transparent"
+                                                css:border-right-style="none"
+                                                css:border-top-color="transparent"
+                                                css:border-top-style="none" css:display="block"
+                                                css:margin-bottom="0" css:margin-left="0"
+                                                css:margin-right="0" css:margin-top="0"
+                                                css:padding-bottom="0" css:padding-left="0"
+                                                css:padding-right="0" css:padding-top="0"
+                                                css:text-align-last="justify"
+                                                data-topic-id="vzh-software">
+                                                <css:before css:display="inline"
+                                                  css:position="static">
+                                                  <css:counter name="toc-chapter" value="1"/>
+                                                  <css:text>.</css:text>
+                                                  <css:counter name="toc-section1" value="1"/>
+                                                  <css:text> </css:text>
+                                                </css:before>
+                                                <div appid="vzh-software"
+                                                  class="- topic/resourceid resourceid"
+                                                  css:display="none" oxy-source="topic"/>
+                                                <div class="- topic/navtitle navtitle"
+                                                  css:display="inline" css:link="#unique_3"
+                                                  href="#unique_3">Использование набора<css:after
+                                                  css:display="inline" css:link="#unique_3"
+                                                  ><css:leader pattern="."/><css:target-counter
+                                                  url-fragment="unique_3"/></css:after></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="- map/topicref topicref"
+                                        css:counter-reset="toc-section1" css:display="block"
+                                        css:font-weight="bold" css:margin-bottom="0.5em"
+                                        css:margin-left="0" css:margin-top="0.5em" href="#unique_4"
+                                        is-chapter="true" otherprops="OxygenXML"
+                                        product="Набор CSS для ГОСТ ЕСПД" props="13"
+                                        rev="XXXX.000000.001" type="topic">
+                                        <div class="- map/topicmeta topicmeta"
+                                            css:border-bottom-color="transparent"
+                                            css:border-bottom-style="none"
+                                            css:border-left-color="transparent"
+                                            css:border-left-style="none"
+                                            css:border-right-color="transparent"
+                                            css:border-right-style="none"
+                                            css:border-top-color="transparent"
+                                            css:border-top-style="none" css:display="block"
+                                            css:margin-bottom="0" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="0"
+                                            css:padding-bottom="0" css:padding-left="0"
+                                            css:padding-right="0" css:padding-top="0"
+                                            css:text-align-last="justify" data-topic-id="test">
+                                            <css:before css:display="inline"
+                                                css:font-weight="normal" css:position="static">
+                                                <css:counter name="toc-chapter" value="2"/>
+                                                <css:text> </css:text>
+                                            </css:before>
+                                            <div appid="test" class="- topic/resourceid resourceid"
+                                                css:display="none" oxy-source="topic"/>
+                                            <div class="- topic/navtitle navtitle"
+                                                css:display="inline" css:link="#unique_4"
+                                                href="#unique_4">Проверка<css:after
+                                                  css:display="inline" css:link="#unique_4"
+                                                  ><css:leader pattern="."/><css:target-counter
+                                                  url-fragment="unique_4"/></css:after></div>
+                                        </div>
+                                    </div>
+                                    <div class="- map/topicref topicref hide-bm-labels"
+                                        css:counter-reset="toc-section1" css:display="block"
+                                        css:font-weight="bold" css:margin-bottom="0.5em"
+                                        css:margin-left="0" css:margin-top="0.5em" href="#unique_5"
+                                        is-chapter="true" otherprops="OxygenXML"
+                                        outputclass="hide-bm-labels"
+                                        product="Набор CSS для ГОСТ ЕСПД" props="13"
+                                        rev="XXXX.000000.001" type="topic">
+                                        <div class="- map/topicmeta topicmeta"
+                                            css:border-bottom-color="transparent"
+                                            css:border-bottom-style="none"
+                                            css:border-left-color="transparent"
+                                            css:border-left-style="none"
+                                            css:border-right-color="transparent"
+                                            css:border-right-style="none"
+                                            css:border-top-color="transparent"
+                                            css:border-top-style="none" css:display="block"
+                                            css:margin-bottom="0" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="0"
+                                            css:padding-bottom="0" css:padding-left="0"
+                                            css:padding-right="0" css:padding-top="0"
+                                            css:text-align-last="justify"
+                                            data-topic-id="listOfTerms">
+                                            <div appid="listOfTerms"
+                                                class="- topic/resourceid resourceid"
+                                                css:display="none" oxy-source="topic"/>
+                                            <div class="- topic/navtitle navtitle"
+                                                css:display="inline" css:link="#unique_5"
+                                                href="#unique_5">Перечень сокращений<css:after
+                                                  css:display="inline" css:link="#unique_5"
+                                                  ><css:leader pattern="."/><css:target-counter
+                                                  url-fragment="unique_5"/></css:after></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </html>
+    </css:page-sequence>
+    <css:page-sequence xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations"
+        xmlns:oxy="http://www.oxygenxml.com/extensions/author" page="chapter">
+        <html css:counter-reset=" page 1" css:display="block"
+            css:font-family="Liberation Serif, PT Serif, serif" css:font-size="12px"
+            xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/rd-13.ditamap">
+            <body class="wh_topic_page" css:display="block" css:font-size="11.5pt"
+                css:margin-left="auto" css:margin-right="auto">
+                <div class="wh_content_area" css:display="block">
+                    <div class="wh_topic_body" css:display="block">
+                        <div class="wh_topic_content" css:display="block">
+                            <div xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
+                                cascade="merge" class="- map/map map" css:bookmark-level="1"
+                                css:counter-reset=" toc-chapter 0 toc-section1 0 toc-section2 0 toc-section3 0 toc-section4 0 chapter 0 section1 0 section2 0 section3 0 section4 0 figcount 0 tablecount 0"
+                                css:display="block" ditaarch:ditaarchversion="1.3"
+                                domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
+                                lang="ru" otherprops="OxygenXML" product="Набор CSS для ГОСТ ЕСПД"
+                                props="13" rev="XXXX.000000.001" title="Описание программы"
+                                xml:lang="ru">
+                                <article aria-labelledby="ariaid-title2" break-before="true"
+                                    class="- topic/topic topic nested0" css:counter-reset="section1"
+                                    css:display="block" css:margin-top="1em"
+                                    css:oxy-pdf-tag-type="Sect" id="unique_2" is-chapter="true"
+                                    nd:nd-id="nameofsystem" oid="nameofsystem"
+                                    oxy:topicref-class="- map/topicref ">
+                                    <h1 class="- topic/title title topictitle1"
+                                        css:bookmark-level="1" css:display="block"
+                                        css:font-size="16px" css:font-weight="bold"
+                                        css:margin-bottom="1em" css:margin-left="0"
+                                        css:margin-right="0" css:margin-top="0"
+                                        css:oxy-pdf-tag-type="H1" css:padding-left="0px"
+                                        css:page-break-after="avoid" css:text-align="center"
+                                        css:text-transform="uppercase" id="ariaid-title2"
+                                            ><css:string-set name="sectiontitle"
+                                            ><css:text/></css:string-set><css:bookmark-label><css:content
+                                                source="before"/><css:content source="text"
+                                            /></css:bookmark-label><css:string-set
+                                            name="chaptertitle"><css:text> | </css:text><css:counter
+                                                name="chapter" value="1"/><css:text> -
+                                                </css:text><css:content source="text"
+                                            /></css:string-set><css:before css:display="inline"
+                                                ><css:counter name="chapter" value="1"
+                                                /><css:text> </css:text></css:before>Общие
+                                        сведения</h1>
+                                    <div class="- topic/body body" css:display="block"
+                                        css:margin-bottom="0" css:margin-left="0"
+                                        css:margin-right="0" css:margin-top="0">
+                                        <p class="- topic/p p" css:display="block"
+                                            css:font-size="16px" css:line-height="1.5"
+                                            css:margin-bottom="0px" css:margin-left="0px"
+                                            css:margin-right="0px" css:margin-top="0px"
+                                            css:text-align="justify" css:text-indent="32px"
+                                            >Наименование программы: <span
+                                                class="- topic/keyword keyword" css:display="inline"
+                                                >Набор CSS для ГОСТ ЕСПД</span> (далее по тексту –
+                                            СПО, подсистема, программа, <span
+                                                class="- topic/keyword keyword" css:display="inline"
+                                                >GOST-OXY</span>).</p>
+                                        <p class="- topic/p p" css:display="block"
+                                            css:font-size="16px" css:line-height="1.5"
+                                            css:margin-bottom="0px" css:margin-left="0px"
+                                            css:margin-right="0px" css:margin-top="0px"
+                                            css:text-align="justify" css:text-indent="32px"
+                                            >Обозначение программы: <span
+                                                class="- topic/keyword keyword" css:display="inline"
+                                                >XXXX.000000.001</span>. <em
+                                                class="+ topic/ph hi-d/i ph i" css:display="inline"
+                                                css:font-style="italic">← Обозначение взято из
+                                                keyword (keys.dita)</em></p>
+                                    </div>
+                                    <article aria-labelledby="ariaid-title3"
+                                        class="- topic/topic topic nested1"
+                                        css:counter-reset="section2" css:display="block"
+                                        css:oxy-pdf-tag-type="Sect" id="unique_3"
+                                        nd:nd-id="vzh-software" oid="vzh-software">
+                                        <h2 class="- topic/title title topictitle2"
+                                            css:bookmark-level="2" css:bookmark-state="closed"
+                                            css:display="block" css:font-size="16px"
+                                            css:font-style="normal" css:font-weight="bold"
+                                            css:margin-bottom="0.5em" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="0.5em"
+                                            css:oxy-pdf-tag-type="H2" css:padding-left="0px"
+                                            css:page-break-after="avoid" css:text-indent="32px"
+                                            id="ariaid-title3"><css:string-set name="sectiontitle"
+                                                  ><css:text> | </css:text><css:counter
+                                                  name="chapter" value="1"
+                                                  /><css:text>.</css:text><css:counter
+                                                  name="section1" value="1"/><css:text> -
+                                                  </css:text><css:content source="text"
+                                                /></css:string-set><css:bookmark-label><css:content
+                                                  source="before"/><css:content source="text"
+                                                /></css:bookmark-label><css:before
+                                                css:display="inline"><css:counter name="chapter"
+                                                  value="1"/><css:text>.</css:text><css:counter
+                                                  name="section1" value="1"/><css:text
+                                                > </css:text></css:before>Использование набора</h2>
+                                        <div class="- topic/body body" css:display="block"
+                                            css:margin-bottom="0" css:margin-left="0"
+                                            css:margin-right="0" css:margin-top="0">
+                                            <p class="- topic/p p" css:display="block"
+                                                css:font-size="16px" css:line-height="1.5"
+                                                css:margin-bottom="0px" css:margin-left="0px"
+                                                css:margin-right="0px" css:margin-top="0px"
+                                                css:text-align="justify" css:text-indent="32px"
+                                                >Набор стилей проверен на версии OxygenXML 20.1 и
+                                                OxygenXML 21.0</p>
+                                            <div class="- topic/p p" css:display="block"
+                                                css:font-size="16px" css:line-height="1.5"
+                                                css:margin-bottom="0px" css:margin-left="0px"
+                                                css:margin-right="0px" css:margin-top="0px"
+                                                css:text-align="justify" css:text-indent="32px">В
+                                                наборе стилей реализовано: <ul class="- topic/ul ul"
+                                                  css:display="block" css:list-style-type="disc"
+                                                  css:margin-bottom="0px" css:margin-top="0px"
+                                                  id="unique_3_Connect_42_d7e67" nd:nd-id="d7e67">
+                                                  <li class="- topic/li li" css:display="list-item"
+                                                  css:list-style-type="none" css:margin-bottom="0px"
+                                                  css:margin-left="32px" css:margin-top="0px"
+                                                  css:text-indent="0px"><css:before
+                                                  css:display="inline" css:margin-right="5px"
+                                                  css:text-align="left"
+                                                  ><css:text>–</css:text></css:before>титул и лист
+                                                  регистрации, в .SVG формате, подключается через
+                                                  CSS; </li>
+                                                  <li class="- topic/li li" css:display="list-item"
+                                                  css:list-style-type="none" css:margin-bottom="0px"
+                                                  css:margin-left="32px" css:margin-top="0px"
+                                                  css:text-indent="0px"><css:before
+                                                  css:display="inline" css:margin-right="5px"
+                                                  css:text-align="left"
+                                                  ><css:text>–</css:text></css:before>списки, ссылки
+                                                  и заголовки по ГОСТ; </li>
+                                                  <li class="- topic/li li" css:display="list-item"
+                                                  css:list-style-type="none" css:margin-bottom="0px"
+                                                  css:margin-left="32px" css:margin-top="0px"
+                                                  css:text-indent="0px"><css:before
+                                                  css:display="inline" css:margin-right="5px"
+                                                  css:text-align="left"
+                                                  ><css:text>–</css:text></css:before>для SVG
+                                                  используются шрифты Gost Type A, включены в папке
+                                                  /project/config/fonts. По умолчанию используются
+                                                  OxygenXML 21, если лежат в этой папке; </li>
+                                                  <li class="- topic/li li" css:display="list-item"
+                                                  css:list-style-type="none" css:margin-bottom="0px"
+                                                  css:margin-left="32px" css:margin-top="0px"
+                                                  css:text-indent="0px"><css:before
+                                                  css:display="inline" css:margin-right="5px"
+                                                  css:text-align="left"
+                                                  ><css:text>–</css:text></css:before>правила
+                                                  оформления подключаются в файле style.css в корне
+                                                  проекта. В самом style.css устанавливается год на
+                                                  титуле и название компании: <ul
+                                                  class="- topic/ul ul" css:display="block"
+                                                  css:margin-bottom="0px" css:margin-top="0px"
+                                                  id="unique_3_Connect_42_d7e80" nd:nd-id="d7e80">
+                                                  <li class="- topic/li li" css:display="list-item"
+                                                  css:margin-bottom="0px" css:margin-left="32px"
+                                                  css:margin-top="0px"><css:before
+                                                  css:display="inline" css:margin-right="5px"
+                                                  css:text-align="left"
+                                                  ><css:text>а)</css:text></css:before>/common/gosthtml/ge-cover.css
+                                                  - оформление титула, надписи на титуле; </li>
+                                                  <li class="- topic/li li" css:display="list-item"
+                                                  css:margin-bottom="0px" css:margin-left="32px"
+                                                  css:margin-top="0px"><css:before
+                                                  css:display="inline" css:margin-right="5px"
+                                                  css:text-align="left"
+                                                  ><css:text>б)</css:text></css:before>/common/gosthtml/ge-figures.css
+                                                  - оформление рисунков; </li>
+                                                  <li class="- topic/li li" css:display="list-item"
+                                                  css:margin-bottom="0px" css:margin-left="32px"
+                                                  css:margin-top="0px"><css:before
+                                                  css:display="inline" css:margin-right="5px"
+                                                  css:text-align="left"
+                                                  ><css:text>в)</css:text></css:before>/common/gosthtml/ge-lists.css
+                                                  - оформление списокв; </li>
+                                                  <li class="- topic/li li" css:display="list-item"
+                                                  css:margin-bottom="0px" css:margin-left="32px"
+                                                  css:margin-top="0px"><css:before
+                                                  css:display="inline" css:margin-right="5px"
+                                                  css:text-align="left"
+                                                  ><css:text>г)</css:text></css:before>/common/gosthtml/ge-numbering.css
+                                                  - нумерация заголовков; </li>
+                                                  <li class="- topic/li li" css:display="list-item"
+                                                  css:margin-bottom="0px" css:margin-left="32px"
+                                                  css:margin-top="0px"><css:before
+                                                  css:display="inline" css:margin-right="5px"
+                                                  css:text-align="left"
+                                                  ><css:text>д)</css:text></css:before>/common/gosthtml/ge-page-setup.css
+                                                  - поля, шрифты; </li>
+                                                  <li class="- topic/li li" css:display="list-item"
+                                                  css:margin-bottom="0px" css:margin-left="32px"
+                                                  css:margin-top="0px"><css:before
+                                                  css:display="inline" css:margin-right="5px"
+                                                  css:text-align="left"
+                                                  ><css:text>е)</css:text></css:before>/common/gosthtml/ge-ru.css
+                                                  - русификация надписей Содержание, рисунки и
+                                                  таблицы; </li>
+                                                  <li class="- topic/li li" css:display="list-item"
+                                                  css:margin-bottom="0px" css:margin-left="32px"
+                                                  css:margin-top="0px"><css:before
+                                                  css:display="inline" css:margin-right="5px"
+                                                  css:text-align="left"
+                                                  ><css:text>ж)</css:text></css:before>/common/gosthtml/ge-tables.css
+                                                  - таблицы</li>
+                                                  <li class="- topic/li li" css:display="list-item"
+                                                  css:margin-bottom="0px" css:margin-left="32px"
+                                                  css:margin-top="0px"><css:before
+                                                  css:display="inline" css:margin-right="5px"
+                                                  css:text-align="left"
+                                                  ><css:text>и)</css:text></css:before>/common/p-i18n-ru.css
+                                                  - русификация, взято из OxygenXML 20.1</li>
+                                                  </ul></li>
+                                                </ul></div>
+                                            <div class="- topic/p p" css:display="block"
+                                                css:font-size="16px" css:line-height="1.5"
+                                                css:margin-bottom="0px" css:margin-left="0px"
+                                                css:margin-right="0px" css:margin-top="0px"
+                                                css:text-align="justify" css:text-indent="32px"
+                                                >Структура проекта отображена на рисунке <a
+                                                  class="- topic/xref xref" css:color="black"
+                                                  css:display="inline"
+                                                  css:link="#unique_3_Connect_42_fig_djn_s3l_dhb"
+                                                  format="dita"
+                                                  href="#unique_3_Connect_42_fig_djn_s3l_dhb"
+                                                  type="fig">1<css:after css:display="inline"
+                                                  css:font-style="italic"
+                                                  css:link="#unique_3_Connect_42_fig_djn_s3l_dhb"
+                                                  /></a>. <figure class="- topic/fig fig fignone"
+                                                  css:display="block" css:page-break-inside="avoid"
+                                                  id="unique_3_Connect_42_fig_djn_s3l_dhb"
+                                                  nd:nd-id="fig_djn_s3l_dhb">
+                                                  <br css:display="block"><css:after
+                                                  css:display="inline"><css:text/></css:after></br>
+                                                  <div class="imagecenter" css:display="block"
+                                                  css:text-align="center"><img align="center"
+                                                  chfox:inch="true"
+                                                  class="- topic/image image imagecenter"
+                                                  css:display="inline" css:image-resolution="120dpi"
+                                                  css:max-width="100%"
+                                                  href="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/img/structure.jpg"
+                                                  id="unique_3_Connect_42_image_ejn_s3l_dhb"
+                                                  nd:nd-id="image_ejn_s3l_dhb" placement="break"
+                                                  src="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/img/structure.jpg"
+                                                  ><css:content-on-element><css:uri
+                                                  extracted-image-height="868"
+                                                  extracted-image-width="471"
+                                                  uri="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/img/structure.jpg"
+                                                  /></css:content-on-element></img></div>
+                                                  <br css:display="block"><css:after
+                                                  css:display="inline"><css:text/></css:after></br>
+                                                  <figcaption
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  xmlns:table="http://dita-ot.sourceforge.net/ns/201007/dita-ot/table"
+                                                  class="figcapcenter" css:display="block"
+                                                  css:text-align="center"><css:before
+                                                  css:display="inline"><css:text>Рисунок
+                                                  </css:text><css:counter name="figcount" value="1"
+                                                  /><css:text> – </css:text></css:before><span
+                                                  class="figtitleprefix fig--title-label"
+                                                  css:display="none">Рисунок<span
+                                                  class="fig--title-label-number" css:display="none"
+                                                  > 1</span>: </span>Структура проекта</figcaption>
+                                                </figure></div>
+                                            <div class="- topic/p p" css:display="block"
+                                                css:font-size="16px" css:line-height="1.5"
+                                                css:margin-bottom="0px" css:margin-left="0px"
+                                                css:margin-right="0px" css:margin-top="0px"
+                                                css:text-align="justify" css:text-indent="32px"
+                                                >Настройка OxygenXML для работы со стилями: <ol
+                                                  class="- topic/ol ol" css:display="block"
+                                                  css:list-style-type="none" css:margin-bottom="0px"
+                                                  css:margin-top="0px"
+                                                  id="unique_3_Connect_42_ol_o2w_2pl_dhb"
+                                                  nd:nd-id="ol_o2w_2pl_dhb">
+                                                  <li class="- topic/li li" css:display="list-item"
+                                                  css:margin-bottom="0px" css:margin-left="32px"
+                                                  css:margin-top="0px" css:text-indent="0px"
+                                                  ><css:before css:display="inline-block"
+                                                  css:margin-right="5px" css:text-align="left"
+                                                  css:width="1em"
+                                                  ><css:text>а)</css:text></css:before>чтобы рисунки
+                                                  и таблицы назывались «Рисунок 1 - …», «Таблица 1 -
+                                                  …» и «Содержание» нужно подключить CSS с
+                                                  локализованными строками, например, в этом проекте
+                                                  подключен файл ge-ru.css, в котором эти названия
+                                                  локализованы (вы можете использовать свой); </li>
+                                                  <li class="- topic/li li" css:display="list-item"
+                                                  css:margin-bottom="0px" css:margin-left="32px"
+                                                  css:margin-top="0px" css:text-indent="0px"
+                                                  ><css:before css:display="inline-block"
+                                                  css:margin-right="5px" css:text-align="left"
+                                                  css:width="1em"
+                                                  ><css:text>б)</css:text></css:before>чтобы ссылки
+                                                  на рисунки и таблицы были просто цифрой (без
+                                                  «Рисунок »), нужно в файле <em
+                                                  class="+ topic/ph hi-d/i ph i"
+                                                  css:display="inline" css:font-style="italic"
+                                                  >C:\Program Files\Oxygen XML Editor
+                                                  21\frameworks\dita\DITA-OT3.x\plugins\org.dita.pdf2\cfg\common\vars\ru.xml</em>
+                                                  поправить строки <em
+                                                  class="+ topic/ph hi-d/i ph i"
+                                                  css:display="inline" css:font-style="italic"
+                                                  >&lt;variable id="Figure Number"&gt;</em> и <em
+                                                  class="+ topic/ph hi-d/i ph i"
+                                                  css:display="inline" css:font-style="italic"
+                                                  >&lt;variable id="Table Number"&gt;</em> (уберите
+                                                  надписи <em class="+ topic/ph hi-d/i ph i"
+                                                  css:display="inline" css:font-style="italic"
+                                                  >Рисунок</em> и <em class="+ topic/ph hi-d/i ph i"
+                                                  css:display="inline" css:font-style="italic"
+                                                  >Таблица</em> и сохраните файл).</li>
+                                                </ol></div>
+                                            <div class="- topic/p p" css:display="block"
+                                                css:font-size="16px" css:line-height="1.5"
+                                                css:margin-bottom="0px" css:margin-left="0px"
+                                                css:margin-right="0px" css:margin-top="0px"
+                                                css:text-align="justify" css:text-indent="32px">Для
+                                                вывода pdf используется сценарий на основе
+                                                стандартного DITA Map PDF - based on HTML5 &amp;
+                                                CSS. Сценайри трансформации сохранен в этом проекте.
+                                                Параметры указаны в таблице <a
+                                                  class="- topic/xref xref" css:color="black"
+                                                  css:display="inline"
+                                                  css:link="#unique_3_Connect_42_table_bwk_4ml_dhb"
+                                                  format="dita"
+                                                  href="#unique_3_Connect_42_table_bwk_4ml_dhb"
+                                                  type="table">1<css:after css:display="inline"
+                                                  css:font-style="italic"
+                                                  css:link="#unique_3_Connect_42_table_bwk_4ml_dhb"
+                                                  /></a>.<table
+                                                  class="- topic/table table frame-all" colsep="1"
+                                                  css:border-bottom-color="black"
+                                                  css:border-bottom-style="solid"
+                                                  css:border-bottom-width="1px"
+                                                  css:border-collapse="collapse"
+                                                  css:border-left-color="black"
+                                                  css:border-left-style="solid"
+                                                  css:border-left-width="1px"
+                                                  css:border-right-color="black"
+                                                  css:border-right-style="solid"
+                                                  css:border-right-width="1px"
+                                                  css:border-top-color="black"
+                                                  css:border-top-style="solid"
+                                                  css:border-top-width="1px" css:display="table"
+                                                  css:margin-bottom="10px"
+                                                  css:page-break-after="auto"
+                                                  css:table-layout="auto" frame="all"
+                                                  id="unique_3_Connect_42_table_bwk_4ml_dhb"
+                                                  nd:nd-id="table_bwk_4ml_dhb" rowsep="1">
+                                                  <caption css:display="table-caption"
+                                                  css:margin-top="16px" css:padding-left="0em"
+                                                  css:page-break-after="avoid" css:text-align="left"
+                                                  css:text-indent="0px"><css:before
+                                                  css:display="inline"><css:text>Таблица
+                                                  </css:text><css:counter name="tablecount"
+                                                  value="1"/><css:text>
+                                                  – </css:text></css:before><span
+                                                  class="table--title-label" css:display="none"
+                                                  >Таблица 1. </span><span
+                                                  class="- topic/title title" css:display="inline"
+                                                  css:page-break-after="avoid">Параметры
+                                                  трансформации</span></caption>
+                                                  <colgroup css:display="table-column-group">
+                                                  <col css:display="table-column" css:width="50%"
+                                                  style="width:50%"/>
+                                                  <col css:display="table-column" css:width="50%"
+                                                  style="width:50%"/>
+                                                  </colgroup>
+                                                  <thead class="- topic/thead thead"
+                                                  css:display="table-header-group"
+                                                  css:font-weight="bold" css:line-height="1.1"
+                                                  css:padding-bottom="2px" css:padding-left="2px"
+                                                  css:padding-right="2px" css:padding-top="2px"
+                                                  css:text-align="center" css:text-indent="0px">
+                                                  <tr class="- topic/row row"
+                                                  css:display="table-row"
+                                                  css:vertical-align="middle">
+                                                  <th
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-1 rowsep-1"
+                                                  colname="col1" css:border-bottom-style="solid"
+                                                  css:border-bottom-width="1px"
+                                                  css:border-right-style="solid"
+                                                  css:border-right-width="1px"
+                                                  css:display="table-cell" css:padding-bottom="2px"
+                                                  css:padding-left="2px" css:padding-right="2px"
+                                                  css:padding-top="2px" css:table-column="0"
+                                                  css:table-row="0" dita-ot:x="1" dita-ot:y="1"
+                                                  id="unique_3__unique_3_Connect_42_table_bwk_4ml_dhb__entry__1"
+                                                  >Параметр</th>
+                                                  <th
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-1 rowsep-1"
+                                                  colname="col2" css:border-bottom-style="solid"
+                                                  css:border-bottom-width="1px"
+                                                  css:border-right-style="solid"
+                                                  css:border-right-width="1px"
+                                                  css:display="table-cell" css:padding-bottom="2px"
+                                                  css:padding-left="2px" css:padding-right="2px"
+                                                  css:padding-top="2px" css:table-column="1"
+                                                  css:table-row="0" dita-ot:x="2" dita-ot:y="1"
+                                                  id="unique_3__unique_3_Connect_42_table_bwk_4ml_dhb__entry__2"
+                                                  >Значение</th>
+                                                  </tr>
+                                                  </thead>
+                                                  <tbody class="- topic/tbody tbody"
+                                                  css:display="table-row-group">
+                                                  <tr class="- topic/row row"
+                                                  css:display="table-row"
+                                                  css:vertical-align="middle">
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-1 rowsep-1"
+                                                  colname="col1" css:border-bottom-style="solid"
+                                                  css:border-bottom-width="1px"
+                                                  css:border-right-style="solid"
+                                                  css:border-right-width="1px"
+                                                  css:display="table-cell" css:line-height="1.1"
+                                                  css:padding-bottom="2px" css:padding-left="2px"
+                                                  css:padding-right="2px" css:padding-top="2px"
+                                                  css:table-column="0" css:table-row="1"
+                                                  css:text-indent="0px" css:vertical-align="top"
+                                                  dita-ot:x="1" dita-ot:y="2"
+                                                  headers="unique_3__unique_3_Connect_42_table_bwk_4ml_dhb__entry__1 "
+                                                  >args.css</td>
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-1 rowsep-1"
+                                                  colname="col2" css:border-bottom-style="solid"
+                                                  css:border-bottom-width="1px"
+                                                  css:border-right-style="solid"
+                                                  css:border-right-width="1px"
+                                                  css:display="table-cell" css:line-height="1.1"
+                                                  css:padding-bottom="2px" css:padding-left="2px"
+                                                  css:padding-right="2px" css:padding-top="2px"
+                                                  css:table-column="1" css:table-row="1"
+                                                  css:text-indent="0px" css:vertical-align="top"
+                                                  dita-ot:x="2" dita-ot:y="2"
+                                                  headers="unique_3__unique_3_Connect_42_table_bwk_4ml_dhb__entry__2 "
+                                                  >${pd}/style.css</td>
+                                                  </tr>
+                                                  <tr class="- topic/row row"
+                                                  css:display="table-row"
+                                                  css:vertical-align="middle">
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-1 rowsep-1"
+                                                  colname="col1" css:border-bottom-style="solid"
+                                                  css:border-bottom-width="1px"
+                                                  css:border-right-style="solid"
+                                                  css:border-right-width="1px"
+                                                  css:display="table-cell" css:line-height="1.1"
+                                                  css:padding-bottom="2px" css:padding-left="2px"
+                                                  css:padding-right="2px" css:padding-top="2px"
+                                                  css:table-column="0" css:table-row="2"
+                                                  css:text-indent="0px" css:vertical-align="top"
+                                                  dita-ot:x="1" dita-ot:y="3"
+                                                  headers="unique_3__unique_3_Connect_42_table_bwk_4ml_dhb__entry__1 "
+                                                  >args.figurelink.style</td>
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-1 rowsep-1"
+                                                  colname="col2" css:border-bottom-style="solid"
+                                                  css:border-bottom-width="1px"
+                                                  css:border-right-style="solid"
+                                                  css:border-right-width="1px"
+                                                  css:display="table-cell" css:line-height="1.1"
+                                                  css:padding-bottom="2px" css:padding-left="2px"
+                                                  css:padding-right="2px" css:padding-top="2px"
+                                                  css:table-column="1" css:table-row="2"
+                                                  css:text-indent="0px" css:vertical-align="top"
+                                                  dita-ot:x="2" dita-ot:y="3"
+                                                  headers="unique_3__unique_3_Connect_42_table_bwk_4ml_dhb__entry__2 "
+                                                  >NUMBER</td>
+                                                  </tr>
+                                                  <tr class="- topic/row row"
+                                                  css:display="table-row"
+                                                  css:vertical-align="middle">
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-1 rowsep-1"
+                                                  colname="col1" css:border-bottom-style="solid"
+                                                  css:border-bottom-width="1px"
+                                                  css:border-right-style="solid"
+                                                  css:border-right-width="1px"
+                                                  css:display="table-cell" css:line-height="1.1"
+                                                  css:padding-bottom="2px" css:padding-left="2px"
+                                                  css:padding-right="2px" css:padding-top="2px"
+                                                  css:table-column="0" css:table-row="3"
+                                                  css:text-indent="0px" css:vertical-align="top"
+                                                  dita-ot:x="1" dita-ot:y="4"
+                                                  headers="unique_3__unique_3_Connect_42_table_bwk_4ml_dhb__entry__1 "
+                                                  >args.input</td>
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-1 rowsep-1"
+                                                  colname="col2" css:border-bottom-style="solid"
+                                                  css:border-bottom-width="1px"
+                                                  css:border-right-style="solid"
+                                                  css:border-right-width="1px"
+                                                  css:display="table-cell" css:line-height="1.1"
+                                                  css:padding-bottom="2px" css:padding-left="2px"
+                                                  css:padding-right="2px" css:padding-top="2px"
+                                                  css:table-column="1" css:table-row="3"
+                                                  css:text-indent="0px" css:vertical-align="top"
+                                                  dita-ot:x="2" dita-ot:y="4"
+                                                  headers="unique_3__unique_3_Connect_42_table_bwk_4ml_dhb__entry__2 "
+                                                  >${cf}</td>
+                                                  </tr>
+                                                  <tr class="- topic/row row"
+                                                  css:display="table-row"
+                                                  css:vertical-align="middle">
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-1 rowsep-1"
+                                                  colname="col1" css:border-bottom-style="solid"
+                                                  css:border-bottom-width="1px"
+                                                  css:border-right-style="solid"
+                                                  css:border-right-width="1px"
+                                                  css:display="table-cell" css:line-height="1.1"
+                                                  css:padding-bottom="2px" css:padding-left="2px"
+                                                  css:padding-right="2px" css:padding-top="2px"
+                                                  css:table-column="0" css:table-row="4"
+                                                  css:text-indent="0px" css:vertical-align="top"
+                                                  dita-ot:x="1" dita-ot:y="5"
+                                                  headers="unique_3__unique_3_Connect_42_table_bwk_4ml_dhb__entry__1 "
+                                                  >args.tablelink.style</td>
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-1 rowsep-1"
+                                                  colname="col2" css:border-bottom-style="solid"
+                                                  css:border-bottom-width="1px"
+                                                  css:border-right-style="solid"
+                                                  css:border-right-width="1px"
+                                                  css:display="table-cell" css:line-height="1.1"
+                                                  css:padding-bottom="2px" css:padding-left="2px"
+                                                  css:padding-right="2px" css:padding-top="2px"
+                                                  css:table-column="1" css:table-row="4"
+                                                  css:text-indent="0px" css:vertical-align="top"
+                                                  dita-ot:x="2" dita-ot:y="5"
+                                                  headers="unique_3__unique_3_Connect_42_table_bwk_4ml_dhb__entry__2 "
+                                                  >NUMBER</td>
+                                                  </tr>
+                                                  <tr class="- topic/row row"
+                                                  css:display="table-row"
+                                                  css:vertical-align="middle">
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-1 rowsep-1"
+                                                  colname="col1" css:border-bottom-style="solid"
+                                                  css:border-bottom-width="1px"
+                                                  css:border-right-style="solid"
+                                                  css:border-right-width="1px"
+                                                  css:display="table-cell" css:line-height="1.1"
+                                                  css:padding-bottom="2px" css:padding-left="2px"
+                                                  css:padding-right="2px" css:padding-top="2px"
+                                                  css:table-column="0" css:table-row="5"
+                                                  css:text-indent="0px" css:vertical-align="top"
+                                                  dita-ot:x="1" dita-ot:y="6"
+                                                  headers="unique_3__unique_3_Connect_42_table_bwk_4ml_dhb__entry__1 "
+                                                  >default.language</td>
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-1 rowsep-1"
+                                                  colname="col2" css:border-bottom-style="solid"
+                                                  css:border-bottom-width="1px"
+                                                  css:border-right-style="solid"
+                                                  css:border-right-width="1px"
+                                                  css:display="table-cell" css:line-height="1.1"
+                                                  css:padding-bottom="2px" css:padding-left="2px"
+                                                  css:padding-right="2px" css:padding-top="2px"
+                                                  css:table-column="1" css:table-row="5"
+                                                  css:text-indent="0px" css:vertical-align="top"
+                                                  dita-ot:x="2" dita-ot:y="6"
+                                                  headers="unique_3__unique_3_Connect_42_table_bwk_4ml_dhb__entry__2 "
+                                                  >ru</td>
+                                                  </tr>
+                                                  <tr class="- topic/row row"
+                                                  css:display="table-row"
+                                                  css:vertical-align="middle">
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-1 rowsep-1"
+                                                  colname="col1" css:border-bottom-style="solid"
+                                                  css:border-bottom-width="1px"
+                                                  css:border-right-style="solid"
+                                                  css:border-right-width="1px"
+                                                  css:display="table-cell" css:line-height="1.1"
+                                                  css:padding-bottom="2px" css:padding-left="2px"
+                                                  css:padding-right="2px" css:padding-top="2px"
+                                                  css:table-column="0" css:table-row="6"
+                                                  css:text-indent="0px" css:vertical-align="top"
+                                                  dita-ot:x="1" dita-ot:y="7"
+                                                  headers="unique_3__unique_3_Connect_42_table_bwk_4ml_dhb__entry__1 "
+                                                  >figure.title.placement</td>
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-1 rowsep-1"
+                                                  colname="col2" css:border-bottom-style="solid"
+                                                  css:border-bottom-width="1px"
+                                                  css:border-right-style="solid"
+                                                  css:border-right-width="1px"
+                                                  css:display="table-cell" css:line-height="1.1"
+                                                  css:padding-bottom="2px" css:padding-left="2px"
+                                                  css:padding-right="2px" css:padding-top="2px"
+                                                  css:table-column="1" css:table-row="6"
+                                                  css:text-indent="0px" css:vertical-align="top"
+                                                  dita-ot:x="2" dita-ot:y="7"
+                                                  headers="unique_3__unique_3_Connect_42_table_bwk_4ml_dhb__entry__2 "
+                                                  >bottom</td>
+                                                  </tr>
+                                                  <tr class="- topic/row row"
+                                                  css:display="table-row"
+                                                  css:vertical-align="middle">
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-1 rowsep-1"
+                                                  colname="col1" css:border-bottom-style="solid"
+                                                  css:border-bottom-width="1px"
+                                                  css:border-right-style="solid"
+                                                  css:border-right-width="1px"
+                                                  css:display="table-cell" css:line-height="1.1"
+                                                  css:padding-bottom="2px" css:padding-left="2px"
+                                                  css:padding-right="2px" css:padding-top="2px"
+                                                  css:table-column="0" css:table-row="7"
+                                                  css:text-indent="0px" css:vertical-align="top"
+                                                  dita-ot:x="1" dita-ot:y="8"
+                                                  headers="unique_3__unique_3_Connect_42_table_bwk_4ml_dhb__entry__1 "
+                                                  >fix.external.refx.com.oxygenxml</td>
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-1 rowsep-1"
+                                                  colname="col2" css:border-bottom-style="solid"
+                                                  css:border-bottom-width="1px"
+                                                  css:border-right-style="solid"
+                                                  css:border-right-width="1px"
+                                                  css:display="table-cell" css:line-height="1.1"
+                                                  css:padding-bottom="2px" css:padding-left="2px"
+                                                  css:padding-right="2px" css:padding-top="2px"
+                                                  css:table-column="1" css:table-row="7"
+                                                  css:text-indent="0px" css:vertical-align="top"
+                                                  dita-ot:x="2" dita-ot:y="8"
+                                                  headers="unique_3__unique_3_Connect_42_table_bwk_4ml_dhb__entry__2 "
+                                                  >true</td>
+                                                  </tr>
+                                                  <tr class="- topic/row row"
+                                                  css:display="table-row"
+                                                  css:vertical-align="middle">
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-1 rowsep-1"
+                                                  colname="col1" css:border-bottom-style="solid"
+                                                  css:border-bottom-width="1px"
+                                                  css:border-right-style="solid"
+                                                  css:border-right-width="1px"
+                                                  css:display="table-cell" css:line-height="1.1"
+                                                  css:padding-bottom="2px" css:padding-left="2px"
+                                                  css:padding-right="2px" css:padding-top="2px"
+                                                  css:table-column="0" css:table-row="8"
+                                                  css:text-indent="0px" css:vertical-align="top"
+                                                  dita-ot:x="1" dita-ot:y="9"
+                                                  headers="unique_3__unique_3_Connect_42_table_bwk_4ml_dhb__entry__1 "
+                                                  >generate.copy.outer</td>
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-1 rowsep-1"
+                                                  colname="col2" css:border-bottom-style="solid"
+                                                  css:border-bottom-width="1px"
+                                                  css:border-right-style="solid"
+                                                  css:border-right-width="1px"
+                                                  css:display="table-cell" css:line-height="1.1"
+                                                  css:padding-bottom="2px" css:padding-left="2px"
+                                                  css:padding-right="2px" css:padding-top="2px"
+                                                  css:table-column="1" css:table-row="8"
+                                                  css:text-indent="0px" css:vertical-align="top"
+                                                  dita-ot:x="2" dita-ot:y="9"
+                                                  headers="unique_3__unique_3_Connect_42_table_bwk_4ml_dhb__entry__2 "
+                                                  >3</td>
+                                                  </tr>
+                                                  </tbody>
+                                                </table></div>
+                                        </div>
+                                    </article>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </html>
+    </css:page-sequence>
+    <css:page-sequence xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations"
+        xmlns:oxy="http://www.oxygenxml.com/extensions/author" page="chapter">
+        <html css:counter-reset=" page 1" css:display="block"
+            css:font-family="Liberation Serif, PT Serif, serif" css:font-size="12px"
+            xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/rd-13.ditamap">
+            <body class="wh_topic_page" css:display="block" css:font-size="11.5pt"
+                css:margin-left="auto" css:margin-right="auto">
+                <div class="wh_content_area" css:display="block">
+                    <div class="wh_topic_body" css:display="block">
+                        <div class="wh_topic_content" css:display="block">
+                            <div xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
+                                cascade="merge" class="- map/map map" css:bookmark-level="1"
+                                css:counter-reset=" toc-chapter 0 toc-section1 0 toc-section2 0 toc-section3 0 toc-section4 0 chapter 0 section1 0 section2 0 section3 0 section4 0 figcount 0 tablecount 0"
+                                css:display="block" ditaarch:ditaarchversion="1.3"
+                                domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
+                                lang="ru" otherprops="OxygenXML" product="Набор CSS для ГОСТ ЕСПД"
+                                props="13" rev="XXXX.000000.001" title="Описание программы"
+                                xml:lang="ru">
+                                <article aria-labelledby="ariaid-title4" break-before="true"
+                                    class="- topic/topic topic nested0" css:counter-reset="section1"
+                                    css:display="block" css:margin-top="1em"
+                                    css:oxy-pdf-tag-type="Sect" id="unique_4" is-chapter="true"
+                                    nd:nd-id="test" oid="test" oxy:topicref-class="- map/topicref ">
+                                    <h1 class="- topic/title title topictitle1"
+                                        css:bookmark-level="1" css:display="block"
+                                        css:font-size="16px" css:font-weight="bold"
+                                        css:margin-bottom="1em" css:margin-left="0"
+                                        css:margin-right="0" css:margin-top="0"
+                                        css:oxy-pdf-tag-type="H1" css:padding-left="0px"
+                                        css:page-break-after="avoid" css:text-align="center"
+                                        css:text-transform="uppercase" id="ariaid-title4"
+                                            ><css:string-set name="sectiontitle"
+                                            ><css:text/></css:string-set><css:bookmark-label><css:content
+                                                source="before"/><css:content source="text"
+                                            /></css:bookmark-label><css:string-set
+                                            name="chaptertitle"><css:text> | </css:text><css:counter
+                                                name="chapter" value="2"/><css:text> -
+                                                </css:text><css:content source="text"
+                                            /></css:string-set><css:before css:display="inline"
+                                                ><css:counter name="chapter" value="2"
+                                                /><css:text> </css:text></css:before>Проверка</h1>
+                                    <div class="- topic/body body" css:display="block"
+                                        css:margin-bottom="0" css:margin-left="0"
+                                        css:margin-right="0" css:margin-top="0">
+                                        <div class="- topic/p p" css:display="block"
+                                            css:font-size="16px" css:line-height="1.5"
+                                            css:margin-bottom="0px" css:margin-left="0px"
+                                            css:margin-right="0px" css:margin-top="0px"
+                                            css:text-align="justify" css:text-indent="32px">Это
+                                            раздел для проверки, что сохраняется сквозная нумерация
+                                            рисунков и таблиц. Таблица <a class="- topic/xref xref"
+                                                css:color="black" css:display="inline"
+                                                css:link="#unique_4_Connect_42_table_kmx_ssl_dhb"
+                                                format="dita"
+                                                href="#unique_4_Connect_42_table_kmx_ssl_dhb"
+                                                type="table">2<css:after css:display="inline"
+                                                  css:font-style="italic"
+                                                  css:link="#unique_4_Connect_42_table_kmx_ssl_dhb"
+                                                /></a><table class="- topic/table table frame-all"
+                                                colsep="1" css:border-bottom-color="black"
+                                                css:border-bottom-style="solid"
+                                                css:border-bottom-width="1px"
+                                                css:border-collapse="collapse"
+                                                css:border-left-color="black"
+                                                css:border-left-style="solid"
+                                                css:border-left-width="1px"
+                                                css:border-right-color="black"
+                                                css:border-right-style="solid"
+                                                css:border-right-width="1px"
+                                                css:border-top-color="black"
+                                                css:border-top-style="solid"
+                                                css:border-top-width="1px" css:display="table"
+                                                css:margin-bottom="10px" css:page-break-after="auto"
+                                                css:table-layout="auto" frame="all"
+                                                id="unique_4_Connect_42_table_kmx_ssl_dhb"
+                                                nd:nd-id="table_kmx_ssl_dhb" rowsep="1">
+                                                <caption css:display="table-caption"
+                                                  css:margin-top="16px" css:padding-left="0em"
+                                                  css:page-break-after="avoid" css:text-align="left"
+                                                  css:text-indent="0px"><css:before
+                                                  css:display="inline"><css:text>Таблица
+                                                  </css:text><css:counter name="tablecount"
+                                                  value="2"/><css:text>
+                                                  – </css:text></css:before><span
+                                                  class="table--title-label" css:display="none"
+                                                  >Таблица 2. </span><span
+                                                  class="- topic/title title" css:display="inline"
+                                                  css:page-break-after="avoid">Красивая
+                                                  таблица</span></caption>
+                                                <colgroup css:display="table-column-group">
+                                                  <col css:display="table-column" css:width="50%"
+                                                  style="width:50%"/>
+                                                  <col css:display="table-column" css:width="50%"
+                                                  style="width:50%"/>
+                                                </colgroup>
+                                                <thead class="- topic/thead thead"
+                                                  css:display="table-header-group"
+                                                  css:font-weight="bold" css:line-height="1.1"
+                                                  css:padding-bottom="2px" css:padding-left="2px"
+                                                  css:padding-right="2px" css:padding-top="2px"
+                                                  css:text-align="center" css:text-indent="0px">
+                                                  <tr class="- topic/row row"
+                                                  css:display="table-row"
+                                                  css:vertical-align="middle">
+                                                  <th
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-1 rowsep-1"
+                                                  colname="col1" css:border-bottom-style="solid"
+                                                  css:border-bottom-width="1px"
+                                                  css:border-right-style="solid"
+                                                  css:border-right-width="1px"
+                                                  css:display="table-cell" css:padding-bottom="2px"
+                                                  css:padding-left="2px" css:padding-right="2px"
+                                                  css:padding-top="2px" css:table-column="0"
+                                                  css:table-row="0" dita-ot:x="1" dita-ot:y="1"
+                                                  id="unique_4__unique_4_Connect_42_table_kmx_ssl_dhb__entry__1"
+                                                  >Параметр</th>
+                                                  <th
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-1 rowsep-1"
+                                                  colname="col2" css:border-bottom-style="solid"
+                                                  css:border-bottom-width="1px"
+                                                  css:border-right-style="solid"
+                                                  css:border-right-width="1px"
+                                                  css:display="table-cell" css:padding-bottom="2px"
+                                                  css:padding-left="2px" css:padding-right="2px"
+                                                  css:padding-top="2px" css:table-column="1"
+                                                  css:table-row="0" dita-ot:x="2" dita-ot:y="1"
+                                                  id="unique_4__unique_4_Connect_42_table_kmx_ssl_dhb__entry__2"
+                                                  >Значение</th>
+                                                  </tr>
+                                                </thead>
+                                                <tbody class="- topic/tbody tbody"
+                                                  css:display="table-row-group">
+                                                  <tr class="- topic/row row"
+                                                  css:display="table-row"
+                                                  css:vertical-align="middle">
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-1 rowsep-1"
+                                                  colname="col1" css:border-bottom-style="solid"
+                                                  css:border-bottom-width="1px"
+                                                  css:border-right-style="solid"
+                                                  css:border-right-width="1px"
+                                                  css:display="table-cell" css:line-height="1.1"
+                                                  css:padding-bottom="2px" css:padding-left="2px"
+                                                  css:padding-right="2px" css:padding-top="2px"
+                                                  css:table-column="0" css:table-row="1"
+                                                  css:text-indent="0px" css:vertical-align="top"
+                                                  dita-ot:x="1" dita-ot:y="2"
+                                                  headers="unique_4__unique_4_Connect_42_table_kmx_ssl_dhb__entry__1 "/>
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-1 rowsep-1"
+                                                  colname="col2" css:border-bottom-style="solid"
+                                                  css:border-bottom-width="1px"
+                                                  css:border-right-style="solid"
+                                                  css:border-right-width="1px"
+                                                  css:display="table-cell" css:line-height="1.1"
+                                                  css:padding-bottom="2px" css:padding-left="2px"
+                                                  css:padding-right="2px" css:padding-top="2px"
+                                                  css:table-column="1" css:table-row="1"
+                                                  css:text-indent="0px" css:vertical-align="top"
+                                                  dita-ot:x="2" dita-ot:y="2"
+                                                  headers="unique_4__unique_4_Connect_42_table_kmx_ssl_dhb__entry__2 "
+                                                  />
+                                                  </tr>
+                                                  <tr class="- topic/row row"
+                                                  css:display="table-row"
+                                                  css:vertical-align="middle">
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-1 rowsep-1"
+                                                  colname="col1" css:border-bottom-style="solid"
+                                                  css:border-bottom-width="1px"
+                                                  css:border-right-style="solid"
+                                                  css:border-right-width="1px"
+                                                  css:display="table-cell" css:line-height="1.1"
+                                                  css:padding-bottom="2px" css:padding-left="2px"
+                                                  css:padding-right="2px" css:padding-top="2px"
+                                                  css:table-column="0" css:table-row="2"
+                                                  css:text-indent="0px" css:vertical-align="top"
+                                                  dita-ot:x="1" dita-ot:y="3"
+                                                  headers="unique_4__unique_4_Connect_42_table_kmx_ssl_dhb__entry__1 "/>
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-1 rowsep-1"
+                                                  colname="col2" css:border-bottom-style="solid"
+                                                  css:border-bottom-width="1px"
+                                                  css:border-right-style="solid"
+                                                  css:border-right-width="1px"
+                                                  css:display="table-cell" css:line-height="1.1"
+                                                  css:padding-bottom="2px" css:padding-left="2px"
+                                                  css:padding-right="2px" css:padding-top="2px"
+                                                  css:table-column="1" css:table-row="2"
+                                                  css:text-indent="0px" css:vertical-align="top"
+                                                  dita-ot:x="2" dita-ot:y="3"
+                                                  headers="unique_4__unique_4_Connect_42_table_kmx_ssl_dhb__entry__2 "
+                                                  />
+                                                  </tr>
+                                                  <tr class="- topic/row row"
+                                                  css:display="table-row"
+                                                  css:vertical-align="middle">
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-1 rowsep-1"
+                                                  colname="col1" css:border-bottom-style="solid"
+                                                  css:border-bottom-width="1px"
+                                                  css:border-right-style="solid"
+                                                  css:border-right-width="1px"
+                                                  css:display="table-cell" css:line-height="1.1"
+                                                  css:padding-bottom="2px" css:padding-left="2px"
+                                                  css:padding-right="2px" css:padding-top="2px"
+                                                  css:table-column="0" css:table-row="3"
+                                                  css:text-indent="0px" css:vertical-align="top"
+                                                  dita-ot:x="1" dita-ot:y="4"
+                                                  headers="unique_4__unique_4_Connect_42_table_kmx_ssl_dhb__entry__1 "/>
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-1 rowsep-1"
+                                                  colname="col2" css:border-bottom-style="solid"
+                                                  css:border-bottom-width="1px"
+                                                  css:border-right-style="solid"
+                                                  css:border-right-width="1px"
+                                                  css:display="table-cell" css:line-height="1.1"
+                                                  css:padding-bottom="2px" css:padding-left="2px"
+                                                  css:padding-right="2px" css:padding-top="2px"
+                                                  css:table-column="1" css:table-row="3"
+                                                  css:text-indent="0px" css:vertical-align="top"
+                                                  dita-ot:x="2" dita-ot:y="4"
+                                                  headers="unique_4__unique_4_Connect_42_table_kmx_ssl_dhb__entry__2 "
+                                                  />
+                                                  </tr>
+                                                </tbody>
+                                            </table></div>
+                                        <div class="- topic/p p" css:display="block"
+                                            css:font-size="16px" css:line-height="1.5"
+                                            css:margin-bottom="0px" css:margin-left="0px"
+                                            css:margin-right="0px" css:margin-top="0px"
+                                            css:text-align="justify" css:text-indent="32px">А это
+                                            схема в svg. Схема <a class="- topic/xref xref"
+                                                css:color="black" css:display="inline"
+                                                css:link="#unique_4_Connect_42_fig_hbn_ftl_dhb"
+                                                format="dita"
+                                                href="#unique_4_Connect_42_fig_hbn_ftl_dhb"
+                                                type="fig">2<css:after css:display="inline"
+                                                  css:font-style="italic"
+                                                  css:link="#unique_4_Connect_42_fig_hbn_ftl_dhb"
+                                                /></a>.<figure class="- topic/fig fig fignone"
+                                                css:display="block" css:page-break-inside="avoid"
+                                                id="unique_4_Connect_42_fig_hbn_ftl_dhb"
+                                                nd:nd-id="fig_hbn_ftl_dhb">
+                                                <br css:display="block"><css:after
+                                                  css:display="inline"><css:text/></css:after></br>
+                                                <div class="imagecenter" css:display="block"
+                                                  css:text-align="center"><img align="center"
+                                                  chfox:inch="true"
+                                                  class="- topic/image image imagecenter"
+                                                  css:display="inline" css:image-resolution="120dpi"
+                                                  css:max-width="100%"
+                                                  href="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/img/schem.svg"
+                                                  id="unique_4_Connect_42_image_ibn_ftl_dhb"
+                                                  nd:nd-id="image_ibn_ftl_dhb" placement="break"
+                                                  src="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/img/schem.svg"
+                                                  ><css:content-on-element><css:uri
+                                                  uri="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/img/schem.svg"
+                                                  /></css:content-on-element></img></div>
+                                                <br css:display="block"><css:after
+                                                  css:display="inline"><css:text/></css:after></br>
+                                                <figcaption
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  xmlns:table="http://dita-ot.sourceforge.net/ns/201007/dita-ot/table"
+                                                  class="figcapcenter" css:display="block"
+                                                  css:text-align="center"><css:before
+                                                  css:display="inline"><css:text>Рисунок
+                                                  </css:text><css:counter name="figcount" value="2"
+                                                  /><css:text> – </css:text></css:before><span
+                                                  class="figtitleprefix fig--title-label"
+                                                  css:display="none">Рисунок<span
+                                                  class="fig--title-label-number" css:display="none"
+                                                  > 2</span>: </span>Красивая схема</figcaption>
+                                            </figure></div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </html>
+    </css:page-sequence>
+    <css:page-sequence xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations"
+        xmlns:oxy="http://www.oxygenxml.com/extensions/author" page="chapter">
+        <html css:counter-reset=" page 1" css:display="block"
+            css:font-family="Liberation Serif, PT Serif, serif" css:font-size="12px"
+            xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/rd-13.ditamap">
+            <body class="wh_topic_page" css:display="block" css:font-size="11.5pt"
+                css:margin-left="auto" css:margin-right="auto">
+                <div class="wh_content_area" css:display="block">
+                    <div class="wh_topic_body" css:display="block">
+                        <div class="wh_topic_content" css:display="block">
+                            <div xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/"
+                                cascade="merge" class="- map/map map" css:bookmark-level="1"
+                                css:counter-reset=" toc-chapter 0 toc-section1 0 toc-section2 0 toc-section3 0 toc-section4 0 chapter 0 section1 0 section2 0 section3 0 section4 0 figcount 0 tablecount 0"
+                                css:display="block" ditaarch:ditaarchversion="1.3"
+                                domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)"
+                                lang="ru" otherprops="OxygenXML" product="Набор CSS для ГОСТ ЕСПД"
+                                props="13" rev="XXXX.000000.001" title="Описание программы"
+                                xml:lang="ru">
+                                <article aria-labelledby="ariaid-title5" break-before="true"
+                                    class="- topic/topic topic nested0 hide-bm-labels"
+                                    css:counter-reset="section1" css:display="block"
+                                    css:margin-top="1em" css:oxy-pdf-tag-type="Sect" id="unique_5"
+                                    is-chapter="true" nd:nd-id="listOfTerms" oid="listOfTerms"
+                                    outputclass="hide-bm-labels hide-bm-labels"
+                                    oxy:topicref-class="- map/topicref ">
+                                    <h1 class="- topic/title title topictitle1"
+                                        css:bookmark-level="1" css:display="block"
+                                        css:font-size="16px" css:font-weight="bold"
+                                        css:margin-bottom="1em" css:margin-left="0"
+                                        css:margin-right="0" css:margin-top="0"
+                                        css:oxy-pdf-tag-type="H1" css:padding-left="0px"
+                                        css:page-break-after="avoid" css:text-align="center"
+                                        css:text-transform="uppercase" id="ariaid-title5"
+                                            ><css:string-set name="sectiontitle"
+                                            ><css:text/></css:string-set><css:bookmark-label><css:content
+                                                source="before"/><css:content source="text"
+                                            /></css:bookmark-label><css:string-set
+                                            name="chaptertitle"><css:text> | </css:text><css:counter
+                                                name="chapter" value="2"/><css:text> -
+                                                </css:text><css:content source="text"
+                                            /></css:string-set><css:before css:display="inline"
+                                        />Перечень сокращений</h1>
+                                    <div class="- topic/body body" css:display="block"
+                                        css:margin-bottom="0" css:margin-left="0"
+                                        css:margin-right="0" css:margin-top="0">
+                                        <div class="- topic/p p" css:display="block"
+                                            css:font-size="16px" css:line-height="1.5"
+                                            css:margin-bottom="0px" css:margin-left="0px"
+                                            css:margin-right="0px" css:margin-top="0px"
+                                            css:text-align="justify" css:text-indent="32px">
+                                            <table class="- topic/table table hide-title frame-none"
+                                                colsep="0" css:border-bottom-color="black"
+                                                css:border-bottom-style="none"
+                                                css:border-collapse="collapse"
+                                                css:border-left-color="black"
+                                                css:border-left-style="none"
+                                                css:border-right-color="black"
+                                                css:border-right-style="none"
+                                                css:border-top-color="black"
+                                                css:border-top-style="none" css:display="table"
+                                                css:margin-bottom="10px" css:page-break-after="auto"
+                                                css:table-layout="auto" frame="none"
+                                                id="unique_5_Connect_42_table_xgz_bv1_4gb"
+                                                nd:nd-id="table_xgz_bv1_4gb"
+                                                outputclass="hide-title" rowsep="0">
+                                                <caption css:display="none" css:margin-top="16px"
+                                                  css:padding-left="0em"
+                                                  css:page-break-after="avoid" css:text-align="left"
+                                                  css:text-indent="0px"/>
+                                                <colgroup css:display="table-column-group">
+                                                  <col css:display="table-column"
+                                                  css:width="21.505377%"
+                                                  style="width:21.50537634408602%"/>
+                                                  <col css:display="table-column"
+                                                  css:width="78.49462%"
+                                                  style="width:78.49462365591397%"/>
+                                                </colgroup>
+                                                <tbody class="- topic/tbody tbody"
+                                                  css:display="table-row-group">
+                                                  <tr class="- topic/row row"
+                                                  css:display="table-row"
+                                                  css:vertical-align="middle">
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-0 rowsep-0"
+                                                  colname="col1" css:display="table-cell"
+                                                  css:line-height="1.1" css:padding-bottom="2px"
+                                                  css:padding-left="2px" css:padding-right="2px"
+                                                  css:padding-top="2px" css:table-column="0"
+                                                  css:table-row="0" css:text-indent="0px"
+                                                  css:vertical-align="top" dita-ot:x="1"
+                                                  dita-ot:y="1">CSS</td>
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-0 rowsep-0"
+                                                  colname="col2" css:display="table-cell"
+                                                  css:line-height="1.1" css:padding-bottom="2px"
+                                                  css:padding-left="2px" css:padding-right="2px"
+                                                  css:padding-top="2px" css:table-column="1"
+                                                  css:table-row="0" css:text-indent="0px"
+                                                  css:vertical-align="top" dita-ot:x="2"
+                                                  dita-ot:y="1">(англ. Cascading Style Sheets —
+                                                  каскадные таблицы стилей) формальный язык описания
+                                                  внешнего вида документа, написанного с
+                                                  использованием языка разметки;</td>
+                                                  </tr>
+                                                  <tr class="- topic/row row"
+                                                  css:display="table-row"
+                                                  css:vertical-align="middle">
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-0 rowsep-0"
+                                                  colname="col1" css:display="table-cell"
+                                                  css:line-height="1.1" css:padding-bottom="2px"
+                                                  css:padding-left="2px" css:padding-right="2px"
+                                                  css:padding-top="2px" css:table-column="0"
+                                                  css:table-row="1" css:text-indent="0px"
+                                                  css:vertical-align="top" dita-ot:x="1"
+                                                  dita-ot:y="2">ИС</td>
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-0 rowsep-0"
+                                                  colname="col2" css:display="table-cell"
+                                                  css:line-height="1.1" css:padding-bottom="2px"
+                                                  css:padding-left="2px" css:padding-right="2px"
+                                                  css:padding-top="2px" css:table-column="1"
+                                                  css:table-row="1" css:text-indent="0px"
+                                                  css:vertical-align="top" dita-ot:x="2"
+                                                  dita-ot:y="2">информационная система</td>
+                                                  </tr>
+                                                  <tr class="- topic/row row"
+                                                  css:display="table-row"
+                                                  css:vertical-align="middle">
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-0 rowsep-0"
+                                                  colname="col1" css:display="table-cell"
+                                                  css:line-height="1.1" css:padding-bottom="2px"
+                                                  css:padding-left="2px" css:padding-right="2px"
+                                                  css:padding-top="2px" css:table-column="0"
+                                                  css:table-row="2" css:text-indent="0px"
+                                                  css:vertical-align="top" dita-ot:x="1"
+                                                  dita-ot:y="3"/>
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-0 rowsep-0"
+                                                  colname="col2" css:display="table-cell"
+                                                  css:line-height="1.1" css:padding-bottom="2px"
+                                                  css:padding-left="2px" css:padding-right="2px"
+                                                  css:padding-top="2px" css:table-column="1"
+                                                  css:table-row="2" css:text-indent="0px"
+                                                  css:vertical-align="top" dita-ot:x="2"
+                                                  dita-ot:y="3"/>
+                                                  </tr>
+                                                  <tr class="- topic/row row"
+                                                  css:display="table-row"
+                                                  css:vertical-align="middle">
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-0 rowsep-0"
+                                                  colname="col1" css:display="table-cell"
+                                                  css:line-height="1.1" css:padding-bottom="2px"
+                                                  css:padding-left="2px" css:padding-right="2px"
+                                                  css:padding-top="2px" css:table-column="0"
+                                                  css:table-row="3" css:text-indent="0px"
+                                                  css:vertical-align="top" dita-ot:x="1"
+                                                  dita-ot:y="4"/>
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-0 rowsep-0"
+                                                  colname="col2" css:display="table-cell"
+                                                  css:line-height="1.1" css:padding-bottom="2px"
+                                                  css:padding-left="2px" css:padding-right="2px"
+                                                  css:padding-top="2px" css:table-column="1"
+                                                  css:table-row="3" css:text-indent="0px"
+                                                  css:vertical-align="top" dita-ot:x="2"
+                                                  dita-ot:y="4"/>
+                                                  </tr>
+                                                  <tr class="- topic/row row"
+                                                  css:display="table-row"
+                                                  css:vertical-align="middle">
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-0 rowsep-0"
+                                                  colname="col1" css:display="table-cell"
+                                                  css:line-height="1.1" css:padding-bottom="2px"
+                                                  css:padding-left="2px" css:padding-right="2px"
+                                                  css:padding-top="2px" css:table-column="0"
+                                                  css:table-row="4" css:text-indent="0px"
+                                                  css:vertical-align="top" dita-ot:x="1"
+                                                  dita-ot:y="5"/>
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-0 rowsep-0"
+                                                  colname="col2" css:display="table-cell"
+                                                  css:line-height="1.1" css:padding-bottom="2px"
+                                                  css:padding-left="2px" css:padding-right="2px"
+                                                  css:padding-top="2px" css:table-column="1"
+                                                  css:table-row="4" css:text-indent="0px"
+                                                  css:vertical-align="top" dita-ot:x="2"
+                                                  dita-ot:y="5"/>
+                                                  </tr>
+                                                  <tr class="- topic/row row"
+                                                  css:display="table-row"
+                                                  css:vertical-align="middle">
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-0 rowsep-0"
+                                                  colname="col1" css:display="table-cell"
+                                                  css:line-height="1.1" css:padding-bottom="2px"
+                                                  css:padding-left="2px" css:padding-right="2px"
+                                                  css:padding-top="2px" css:table-column="0"
+                                                  css:table-row="5" css:text-indent="0px"
+                                                  css:vertical-align="top" dita-ot:x="1"
+                                                  dita-ot:y="6"/>
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-0 rowsep-0"
+                                                  colname="col2" css:display="table-cell"
+                                                  css:line-height="1.1" css:padding-bottom="2px"
+                                                  css:padding-left="2px" css:padding-right="2px"
+                                                  css:padding-top="2px" css:table-column="1"
+                                                  css:table-row="5" css:text-indent="0px"
+                                                  css:vertical-align="top" dita-ot:x="2"
+                                                  dita-ot:y="6"/>
+                                                  </tr>
+                                                  <tr class="- topic/row row"
+                                                  css:display="table-row"
+                                                  css:vertical-align="middle">
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-0 rowsep-0"
+                                                  colname="col1" css:display="table-cell"
+                                                  css:line-height="1.1" css:padding-bottom="2px"
+                                                  css:padding-left="2px" css:padding-right="2px"
+                                                  css:padding-top="2px" css:table-column="0"
+                                                  css:table-row="6" css:text-indent="0px"
+                                                  css:vertical-align="top" dita-ot:x="1"
+                                                  dita-ot:y="7"/>
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-0 rowsep-0"
+                                                  colname="col2" css:display="table-cell"
+                                                  css:line-height="1.1" css:padding-bottom="2px"
+                                                  css:padding-left="2px" css:padding-right="2px"
+                                                  css:padding-top="2px" css:table-column="1"
+                                                  css:table-row="6" css:text-indent="0px"
+                                                  css:vertical-align="top" dita-ot:x="2"
+                                                  dita-ot:y="7"/>
+                                                  </tr>
+                                                  <tr class="- topic/row row"
+                                                  css:display="table-row"
+                                                  css:vertical-align="middle">
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-0 rowsep-0"
+                                                  colname="col1" css:display="table-cell"
+                                                  css:line-height="1.1" css:padding-bottom="2px"
+                                                  css:padding-left="2px" css:padding-right="2px"
+                                                  css:padding-top="2px" css:table-column="0"
+                                                  css:table-row="7" css:text-indent="0px"
+                                                  css:vertical-align="top" dita-ot:x="1"
+                                                  dita-ot:y="8"/>
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-0 rowsep-0"
+                                                  colname="col2" css:display="table-cell"
+                                                  css:line-height="1.1" css:padding-bottom="2px"
+                                                  css:padding-left="2px" css:padding-right="2px"
+                                                  css:padding-top="2px" css:table-column="1"
+                                                  css:table-row="7" css:text-indent="0px"
+                                                  css:vertical-align="top" dita-ot:x="2"
+                                                  dita-ot:y="8"/>
+                                                  </tr>
+                                                  <tr class="- topic/row row"
+                                                  css:display="table-row"
+                                                  css:vertical-align="middle">
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-0 rowsep-0"
+                                                  colname="col1" css:display="table-cell"
+                                                  css:line-height="1.1" css:padding-bottom="2px"
+                                                  css:padding-left="2px" css:padding-right="2px"
+                                                  css:padding-top="2px" css:table-column="0"
+                                                  css:table-row="8" css:text-indent="0px"
+                                                  css:vertical-align="top" dita-ot:x="1"
+                                                  dita-ot:y="9"/>
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-0 rowsep-0"
+                                                  colname="col2" css:display="table-cell"
+                                                  css:line-height="1.1" css:padding-bottom="2px"
+                                                  css:padding-left="2px" css:padding-right="2px"
+                                                  css:padding-top="2px" css:table-column="1"
+                                                  css:table-row="8" css:text-indent="0px"
+                                                  css:vertical-align="top" dita-ot:x="2"
+                                                  dita-ot:y="9"/>
+                                                  </tr>
+                                                  <tr class="- topic/row row"
+                                                  css:display="table-row"
+                                                  css:vertical-align="middle">
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-0 rowsep-0"
+                                                  colname="col1" css:display="table-cell"
+                                                  css:line-height="1.1" css:padding-bottom="2px"
+                                                  css:padding-left="2px" css:padding-right="2px"
+                                                  css:padding-top="2px" css:table-column="0"
+                                                  css:table-row="9" css:text-indent="0px"
+                                                  css:vertical-align="top" dita-ot:x="1"
+                                                  dita-ot:y="10"/>
+                                                  <td
+                                                  xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot"
+                                                  class="- topic/entry entry colsep-0 rowsep-0"
+                                                  colname="col2" css:display="table-cell"
+                                                  css:line-height="1.1" css:padding-bottom="2px"
+                                                  css:padding-left="2px" css:padding-right="2px"
+                                                  css:padding-top="2px" css:table-column="1"
+                                                  css:table-row="9" css:text-indent="0px"
+                                                  css:vertical-align="top" dita-ot:x="2"
+                                                  dita-ot:y="10"/>
+                                                  </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </body>
+        </html>
+    </css:page-sequence>
+    <css:page-sequence page="lp">
+        <html css:counter-reset=" page 1" css:display="block"
+            css:font-family="Liberation Serif, PT Serif, serif" css:font-size="12px"
+            xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/rd-13.ditamap">
+            <css:after css:display="block">
+                <css:text> </css:text>
+            </css:after>
+        </html>
+    </css:page-sequence>
+</css:root>

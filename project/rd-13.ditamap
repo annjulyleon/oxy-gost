@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map xml:lang="ru" 
+    title="Описание программы"
+    product="Набор CSS для ГОСТ ЕСПД" 
+    rev="XXXX.000000.001"
+    props="13"    
+    otherprops="OxygenXML">
+    <title>Описание программы</title>      
+    <topicref href="preface-13.dita" toc="no" outputclass="before-toc" />
+    <topicref href="nameofsystem.dita">
+        <topicref href="software.dita" navtitle="Использование"/>
+    </topicref>
+    <topicref href="test.dita" /> 
+    <topicref href="listOfTerms.dita" outputclass="hide-bm-labels"></topicref>    
+    <keydef keys="keys" href="keys.dita" />
+</map>

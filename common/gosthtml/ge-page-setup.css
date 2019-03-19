@@ -1,0 +1,119 @@
+:root {
+	font-family: "Liberation Serif", "PT Serif", serif;	
+}
+
+/****** Поля страницы *******/
+@page {
+    size: A4;
+    margin-right: 1cm;
+	margin-left: 2cm;
+	margin-bottom: 2cm;
+	margin-top: 2cm;	
+}
+/**************************/
+
+*[class ~= "topic/topic"] > *[class ~= "topic/body"] > *[class ~= "topic/p"] {
+	text-indent: 32px;
+	line-height: 1.5;
+	margin: 0px;
+	text-align: justify;
+	font-size: 16px;
+}
+
+/* Заголовки в тексте */
+
+*[class ~= "topic/topic"][is-chapter]:not([is-part]) > *[class ~= "topic/title"] {
+    text-align: center;
+	font-weight: bold;
+	padding-left: 0px;
+	font-size: 1em;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+*[class ~= "topic/topic"][is-chapter]:not([is-part]) > *[class ~= "topic/topic"] > *[class ~= "topic/title"],
+*[class ~= "topic/topic"][is-chapter]:not([is-part]) > *[class ~= "topic/topic"] > *[class ~= "topic/topic"] > *[class ~= "topic/title"] {
+    padding-left: 0px;
+	font-size: 1em;
+	font-style: normal;
+	text-indent: 32px;
+	font-weight: bold;
+	margin: 0.5em 0 0.5em 0;
+	font-size: 16px;
+}
+
+/* Шрифт заголовка "Содержание" */
+
+*[class ~= "toc/title"] {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1em;
+	font-size: 16px;
+}
+
+/****** Установка нумерации страниц (в верхнем колонтитуле) ******/
+
+/* Получается из номера страницы + базовый децимальный номер (свойство @rev dita map) + номер документа (@props) */
+@page :left, table-of-contents:left, chapter:left {
+    @top-center {        
+		content: counter(page) "\A" oxy_xpath("//div[contains(@class, '- map/map map')]/@rev") "." oxy_xpath("//div[contains(@class, '- map/map map')]/@props"); 
+		font-family: "Liberation Serif", "PT Serif", serif !important;
+		font-size: 16px !important;		
+    }
+	
+}
+@page :right, table-of-contents:right, chapter:right {
+    @top-center {		
+		content: counter(page) "\A" oxy_xpath("//div[contains(@class, '- map/map map')]/@rev") "." oxy_xpath("//div[contains(@class, '- map/map map')]/@props");        
+		font-family: "Liberation Serif", "PT Serif", serif !important;
+		font-size: 16px !important;
+    }
+}
+
+@page :left {
+    @top-left {
+        content: none;		
+    }
+	
+}
+@page :right {
+    @top-right {
+        content: none;
+    }
+}
+/**************************/
+
+/* Блоки кода */
+
+pre {
+    padding: 0.5em;
+    background-color: white;
+    overflow: auto;
+    max-height: 600px;
+    margin: .5em 0 .5em .5em;
+	text-align: left;
+}
+
+/* Ссылки */
+
+*[class~="topic/xref"] {
+	text-decoration: none;
+	color: black;
+}
+
+/****** Лист регистрации ******/
+
+:root:after{
+    page:lp;
+    display:block;
+    content: " ";
+} 
+@page lp { 
+	background-image: url("espd-reglist.svg");
+    background-position:center;
+}
+
+/**************************/
+
+
+

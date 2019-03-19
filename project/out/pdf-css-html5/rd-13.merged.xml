@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/css' href='file:/C:/Program Files/Oxygen XML Editor 21/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.webhelp.responsive/oxygen-webhelp/app/topic-page-print.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Program Files/Oxygen XML Editor 21/frameworks/dita/css/print/p-dita.css'?>
+<?xml-stylesheet type='text/css' href='file:/C:/Program Files/Oxygen XML Editor 21/frameworks/dita/DITA-OT3.x/plugins/com.oxygenxml.editlink/pdf-css.css'?>
+<?xml-stylesheet type='text/css' href='file:/D:/docs/sample/project/style.css'?>
+<map xmlns:ditaarch="http://dita.oasis-open.org/architecture/2005/" xmlns:opentopic-index="http://www.idiominc.com/opentopic/index" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:oxy="http://www.oxygenxml.com/extensions/author" xmlns:nd="http://www.oxygenxml.com/css2fo/named-destinations" xmlns:opentopic="http://www.idiominc.com/opentopic" xmlns:css2fo="http://www.oxygenxml.com/css2fo" xmlns:dita-ot="dita-ot.sourceforge.net/ns/201007/dita-ot" cascade="merge" class="- map/map " ditaarch:DITAArchVersion="1.3" domains="(map mapgroup-d) (topic abbrev-d) (topic delay-d) a(props deliveryTarget) (map ditavalref-d) (map glossref-d) (topic hazard-d) (topic hi-d) (topic indexing-d) (topic markup-d) (topic pr-d) (topic relmgmt-d) (topic sw-d) (topic ui-d) (topic ut-d) (topic markup-d xml-d)" otherprops="OxygenXML" product="Набор CSS для ГОСТ ЕСПД" props="13" rev="XXXX.000000.001" title="Описание программы" xml:lang="ru" xtrc="map:1;8:28" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/rd-13.ditamap"><oxy:front-page class="- front-page/front-page "><oxy:front-page-title class="- front-page/front-page-title ">Описание программы</oxy:front-page-title></oxy:front-page><topic xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" oxy:topicref-class="- map/topicref " class="- topic/topic " id="unique_1" nd:nd-id="preface-13" oid="preface-13" outputclass="hide-bm-labels before-toc">
+    <title class="- topic/title ">Аннотация</title>
+    <body class="- topic/body ">
+        <p class="- topic/p ">В данном программном документе приведено описание программы <keyword class="- topic/keyword ">Набор CSS для ГОСТ ЕСПД</keyword>. <keyword class="- topic/keyword ">XXXX.000000.001</keyword> (далее
+            по тексту – СПО, подсистема, программа, <keyword class="- topic/keyword ">GOST-OXY</keyword>),
+            входящей в состав ЕГИС ОТБ. <keyword class="- topic/keyword ">Основное назначение набора стилей - возможность выводить PDF по ГОСТ 19.</keyword>
+        </p>
+        <p class="- topic/p ">В разделе «Общие сведения» приведено описание набора, структура папок и комментарии по
+            использованию. </p>
+        <p class="- topic/p ">В разделе «Примеры» приведены примеры ссылок. </p>
+        <p class="- topic/p ">Оформление программного документа «Описание программы» произведено по требованиям ЕСПД:
+            <ul class="- topic/ul " id="unique_1_Connect_42_ul_p35_ndv_2gb" nd:nd-id="ul_p35_ndv_2gb">
+                <li class="- topic/li ">ГОСТ 19.101-77 − ЕСПД. Виды программ и программных документов; </li>
+                <li class="- topic/li ">ГОСТ 19.103-77 − ЕСПД. Обозначения программ и программных документов; </li>
+                <li class="- topic/li ">ГОСТ 19.104-78 − ЕСПД. Основные надписи; </li>
+                <li class="- topic/li ">ГОСТ 19.105-78 − ЕСПД. Общие требования к программным документам; </li>
+                <li class="- topic/li ">ГОСТ 19.106-78 − ЕСПД. Требования к программным документам, выполненным печатным
+                    способом; </li>
+                <li class="- topic/li ">ГОСТ 19.402-78 − ЕСПД. Описание программы. Требования к содержанию и оформлению.
+                </li>
+            </ul></p>
+    </body>
+</topic><opentopic:map xmlns:ot-placeholder="http://suite-sol.com/namespaces/ot-placeholder" class="- toc/toc "><oxy:toc-title class="- toc/title " empty="true"/>
+    <title xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" class="- topic/title ">Описание программы</title>      
+    
+    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_2" otherprops="OxygenXML" product="Набор CSS для ГОСТ ЕСПД" props="13" rev="XXXX.000000.001" type="topic"><topicmeta class="- map/topicmeta " data-topic-id="nameofsystem"><resourceid appid="nameofsystem" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_2" class="- topic/navtitle ">Общие сведения</navtitle><?ditaot gentext?></topicmeta><topicref class="- map/topicref " href="#unique_3" navtitle="Использование" otherprops="OxygenXML" product="Набор CSS для ГОСТ ЕСПД" props="13" rev="XXXX.000000.001" type="topic"><topicmeta class="- map/topicmeta " data-topic-id="vzh-software"><resourceid appid="vzh-software" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_3" class="- topic/navtitle ">Использование набора</navtitle><?ditaot gentext?></topicmeta></topicref></topicref>
+    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_4" otherprops="OxygenXML" product="Набор CSS для ГОСТ ЕСПД" props="13" rev="XXXX.000000.001" type="topic"><topicmeta class="- map/topicmeta " data-topic-id="test"><resourceid appid="test" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_4" class="- topic/navtitle ">Проверка</navtitle><?ditaot gentext?></topicmeta></topicref> 
+    <topicref xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" is-chapter="true" class="- map/topicref " href="#unique_5" otherprops="OxygenXML" outputclass="hide-bm-labels" product="Набор CSS для ГОСТ ЕСПД" props="13" rev="XXXX.000000.001" type="topic"><topicmeta class="- map/topicmeta " data-topic-id="listOfTerms"><resourceid appid="listOfTerms" class="- topic/resourceid " oxy-source="topic"/><navtitle href="#unique_5" class="- topic/navtitle ">Перечень сокращений</navtitle><?ditaot gentext?></topicmeta></topicref>    
+    <?ditaot gentext?>
+</opentopic:map><topic xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" oxy:topicref-class="- map/topicref " class="- topic/topic " id="unique_2" nd:nd-id="nameofsystem" oid="nameofsystem">
+    <title class="- topic/title ">Общие сведения</title>
+    <body class="- topic/body ">
+        <p class="- topic/p ">Наименование программы: <keyword class="- topic/keyword ">Набор CSS для ГОСТ ЕСПД</keyword> (далее по тексту –
+            СПО, подсистема, программа, <keyword class="- topic/keyword ">GOST-OXY</keyword>).</p>
+        <p class="- topic/p ">Обозначение программы: <keyword class="- topic/keyword ">XXXX.000000.001</keyword>. <i class="+ topic/ph hi-d/i ">←
+            Обозначение взято из keyword (keys.dita)</i></p> 
+    </body>
+<topic class="- topic/topic " id="unique_3" nd:nd-id="vzh-software" oid="vzh-software">
+    <title class="- topic/title ">Использование набора</title>
+    <body class="- topic/body ">
+        <p class="- topic/p ">Набор стилей проверен на версии OxygenXML 20.1 и OxygenXML 21.0</p>
+        <p class="- topic/p ">В наборе стилей реализовано: <ul class="- topic/ul " id="unique_3_Connect_42_d7e67" nd:nd-id="d7e67">
+                <li class="- topic/li ">титул и лист регистрации, в .SVG формате, подключается через CSS; </li>
+                <li class="- topic/li ">списки, ссылки и заголовки по ГОСТ; </li>
+                <li class="- topic/li ">для SVG используются шрифты Gost Type A, включены в папке /project/config/fonts. По умолчанию используются OxygenXML 21, если лежат в этой папке; </li>
+                <li class="- topic/li ">правила оформления подключаются в файле style.css в корне проекта. В самом style.css устанавливается год на титуле и название компании: <ul class="- topic/ul " id="unique_3_Connect_42_d7e80" nd:nd-id="d7e80">
+                    <li class="- topic/li ">/common/gosthtml/ge-cover.css - оформление титула, надписи на титуле; </li>
+                    <li class="- topic/li ">/common/gosthtml/ge-figures.css - оформление рисунков; </li>
+                    <li class="- topic/li ">/common/gosthtml/ge-lists.css - оформление списокв; </li>
+                    <li class="- topic/li ">/common/gosthtml/ge-numbering.css - нумерация заголовков; </li>
+                    <li class="- topic/li ">/common/gosthtml/ge-page-setup.css - поля, шрифты; </li>
+                    <li class="- topic/li ">/common/gosthtml/ge-ru.css - русификация надписей Содержание, рисунки и таблицы; </li>
+                    <li class="- topic/li ">/common/gosthtml/ge-tables.css  - таблицы</li>
+                    <li class="- topic/li ">/common/p-i18n-ru.css  - русификация, взято из OxygenXML 20.1</li>
+                    </ul></li>
+            </ul></p>
+        <p class="- topic/p ">Структура проекта отображена на рисунке <xref class="- topic/xref " format="dita" href="#unique_3_Connect_42_fig_djn_s3l_dhb" type="fig">1</xref>. <fig class="- topic/fig " id="unique_3_Connect_42_fig_djn_s3l_dhb" nd:nd-id="fig_djn_s3l_dhb"><image align="center" class="- topic/image " href="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/img/structure.jpg" id="unique_3_Connect_42_image_ejn_s3l_dhb" nd:nd-id="image_ejn_s3l_dhb" placement="break"/><title class="- topic/title ">Структура проекта</title></fig></p>
+        <p class="- topic/p ">Настройка OxygenXML для работы со стилями: <ol class="- topic/ol " id="unique_3_Connect_42_ol_o2w_2pl_dhb" nd:nd-id="ol_o2w_2pl_dhb">
+                <li class="- topic/li ">чтобы рисунки и таблицы назывались «Рисунок 1 - …», «Таблица 1 - …»  и
+                    «Содержание» нужно подключить CSS с локализованными строками, например, в этом
+                    проекте подключен файл ge-ru.css, в котором эти названия локализованы (вы можете
+                    использовать свой); </li>
+                <li class="- topic/li ">чтобы ссылки на рисунки и таблицы были просто цифрой (без «Рисунок »), нужно в
+                    файле <i class="+ topic/ph hi-d/i ">C:\Program Files\Oxygen XML Editor
+                        21\frameworks\dita\DITA-OT3.x\plugins\org.dita.pdf2\cfg\common\vars\ru.xml</i>
+                    поправить строки <i class="+ topic/ph hi-d/i ">&lt;variable id="Figure Number"&gt;</i> и <i class="+ topic/ph hi-d/i ">&lt;variable
+                        id="Table Number"&gt;</i> (уберите надписи <i class="+ topic/ph hi-d/i ">Рисунок</i> и <i class="+ topic/ph hi-d/i ">Таблица</i> и
+                    сохраните файл).</li>
+            </ol></p>
+        <p class="- topic/p ">Для вывода pdf используется сценарий на основе стандартного DITA Map PDF - based on HTML5
+            &amp; CSS. Сценайри трансформации сохранен в этом проекте. Параметры указаны в таблице
+                <xref class="- topic/xref " format="dita" href="#unique_3_Connect_42_table_bwk_4ml_dhb" type="table">1</xref>.<table class="- topic/table " colsep="1" frame="all" id="unique_3_Connect_42_table_bwk_4ml_dhb" nd:nd-id="table_bwk_4ml_dhb" rowsep="1">
+                <title class="- topic/title ">Параметры трансформации</title>
+                <tgroup class="- topic/tgroup " cols="2">
+                    <colspec class="- topic/colspec " colname="col1" colnum="1" colwidth="1*" xtrc="colspec:1;32:69" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/software.dita" style="width:50%;"/>
+                    <colspec class="- topic/colspec " colname="col2" colnum="2" colwidth="1*" xtrc="colspec:2;33:69" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/software.dita" style="width:50%;"/>
+                    <thead class="- topic/thead ">
+                        <row class="- topic/row ">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1" xtrc="entry:1;36:36" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/software.dita">Параметр</entry>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1" xtrc="entry:2;37:36" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/software.dita">Значение</entry>
+                        </row>
+                    </thead>
+                    <tbody class="- topic/tbody ">
+                        <row class="- topic/row ">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2" xtrc="entry:3;42:36" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/software.dita">args.css</entry>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2" xtrc="entry:4;43:36" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/software.dita">${pd}/style.css</entry>
+                        </row>
+                        <row class="- topic/row ">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3" xtrc="entry:5;46:36" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/software.dita">args.figurelink.style</entry>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3" xtrc="entry:6;47:36" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/software.dita">NUMBER</entry>
+                        </row>
+                        <row class="- topic/row ">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4" xtrc="entry:7;50:36" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/software.dita">args.input</entry>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4" xtrc="entry:8;51:36" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/software.dita">${cf}</entry>
+                        </row>
+                        <row class="- topic/row ">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="5" xtrc="entry:9;54:36" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/software.dita">args.tablelink.style</entry>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="5" xtrc="entry:10;55:36" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/software.dita">NUMBER</entry>
+                        </row>
+                        <row class="- topic/row ">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="6" xtrc="entry:11;58:36" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/software.dita">default.language</entry>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="6" xtrc="entry:12;59:36" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/software.dita">ru</entry>
+                        </row>
+                        <row class="- topic/row ">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="7" xtrc="entry:13;62:36" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/software.dita">figure.title.placement</entry>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="7" xtrc="entry:14;63:36" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/software.dita">bottom</entry>
+                        </row>
+                        <row class="- topic/row ">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="8" xtrc="entry:15;66:36" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/software.dita">fix.external.refx.com.oxygenxml</entry>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="8" xtrc="entry:16;67:36" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/software.dita">true</entry>
+                        </row>
+                        <row class="- topic/row ">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="9" xtrc="entry:17;70:36" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/software.dita">generate.copy.outer</entry>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="9" xtrc="entry:18;71:36" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/software.dita">3</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table></p>
+    </body>
+</topic></topic><topic xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" oxy:topicref-class="- map/topicref " class="- topic/topic " id="unique_4" nd:nd-id="test" oid="test">
+    <title class="- topic/title ">Проверка</title>
+    <body class="- topic/body ">
+        <p class="- topic/p ">Это раздел для проверки, что сохраняется сквозная нумерация рисунков и таблиц. Таблица
+                <xref class="- topic/xref " format="dita" href="#unique_4_Connect_42_table_kmx_ssl_dhb" type="table">2</xref><table class="- topic/table " colsep="1" frame="all" id="unique_4_Connect_42_table_kmx_ssl_dhb" nd:nd-id="table_kmx_ssl_dhb" rowsep="1">
+                <title class="- topic/title ">Красивая таблица</title>
+                <tgroup class="- topic/tgroup " cols="2">
+                    <colspec class="- topic/colspec " colname="col1" colnum="1" colwidth="1*" xtrc="colspec:1;11:69" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/test.dita" style="width:50%;"/>
+                    <colspec class="- topic/colspec " colname="col2" colnum="2" colwidth="1*" xtrc="colspec:2;12:69" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/test.dita" style="width:50%;"/>
+                    <thead class="- topic/thead ">
+                        <row class="- topic/row ">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1" xtrc="entry:1;15:36" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/test.dita">Параметр</entry>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1" xtrc="entry:2;16:36" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/test.dita">Значение</entry>
+                        </row>
+                    </thead>
+                    <tbody class="- topic/tbody ">
+                        <row class="- topic/row ">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2" xtrc="entry:3;21:37" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/test.dita"/>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2" xtrc="entry:4;22:37" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/test.dita"/>
+                        </row>
+                        <row class="- topic/row ">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3" xtrc="entry:5;25:37" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/test.dita"/>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3" xtrc="entry:6;26:37" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/test.dita"/>
+                        </row>
+                        <row class="- topic/row ">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4" xtrc="entry:7;29:37" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/test.dita"/>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4" xtrc="entry:8;30:37" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/test.dita"/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table></p>
+        <p class="- topic/p ">А это схема в svg. Схема <xref class="- topic/xref " format="dita" href="#unique_4_Connect_42_fig_hbn_ftl_dhb" type="fig">2</xref>.<fig class="- topic/fig " id="unique_4_Connect_42_fig_hbn_ftl_dhb" nd:nd-id="fig_hbn_ftl_dhb"><image align="center" class="- topic/image " href="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/img/schem.svg" id="unique_4_Connect_42_image_ibn_ftl_dhb" nd:nd-id="image_ibn_ftl_dhb" placement="break"/><title class="- topic/title ">Красивая схема</title></fig></p>
+    </body>
+</topic><topic xmlns:dita-ot="http://dita-ot.sourceforge.net/ns/201007/dita-ot" break-before="true" is-chapter="true" oxy:topicref-class="- map/topicref " class="- topic/topic " id="unique_5" nd:nd-id="listOfTerms" oid="listOfTerms" outputclass="hide-bm-labels hide-bm-labels">
+    <title class="- topic/title ">Перечень сокращений</title>
+    <body class="- topic/body ">
+        <p class="- topic/p ">
+            <table class="- topic/table " colsep="0" frame="none" id="unique_5_Connect_42_table_xgz_bv1_4gb" nd:nd-id="table_xgz_bv1_4gb" outputclass="hide-title" rowsep="0">
+                <tgroup class="- topic/tgroup " cols="2">
+                    <colspec class="- topic/colspec " colname="col1" colnum="1" colwidth="1*" xtrc="colspec:1;9:69" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/listOfTerms.dita" style="width:21.5054%;"/>
+                    <colspec class="- topic/colspec " colname="col2" colnum="2" colwidth="3.65*" xtrc="colspec:2;10:72" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/listOfTerms.dita" style="width:78.4946%;"/>
+                    <tbody class="- topic/tbody ">
+                        <row class="- topic/row ">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="1" xtrc="entry:1;13:36" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/listOfTerms.dita">CSS</entry>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="1" xtrc="entry:2;14:36" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/listOfTerms.dita">(англ. Cascading Style Sheets — каскадные таблицы стилей)
+                                формальный язык описания внешнего вида документа, написанного с
+                                использованием языка разметки;</entry>
+                        </row>
+                        <row class="- topic/row ">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="2" xtrc="entry:3;19:36" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/listOfTerms.dita">ИС</entry>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="2" xtrc="entry:4;20:36" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/listOfTerms.dita">информационная система</entry>
+                        </row>
+                        <row class="- topic/row ">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="3" xtrc="entry:5;23:37" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/listOfTerms.dita"/>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="3" xtrc="entry:6;24:37" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/listOfTerms.dita"/>
+                        </row>
+                        <row class="- topic/row ">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="4" xtrc="entry:7;27:37" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/listOfTerms.dita"/>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="4" xtrc="entry:8;28:37" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/listOfTerms.dita"/>
+                        </row>
+                        <row class="- topic/row ">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="5" xtrc="entry:9;31:37" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/listOfTerms.dita"/>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="5" xtrc="entry:10;32:37" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/listOfTerms.dita"/>
+                        </row>
+                        <row class="- topic/row ">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="6" xtrc="entry:11;35:37" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/listOfTerms.dita"/>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="6" xtrc="entry:12;36:37" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/listOfTerms.dita"/>
+                        </row>
+                        <row class="- topic/row ">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="7" xtrc="entry:13;39:37" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/listOfTerms.dita"/>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="7" xtrc="entry:14;40:37" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/listOfTerms.dita"/>
+                        </row>
+                        <row class="- topic/row ">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="8" xtrc="entry:15;43:37" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/listOfTerms.dita"/>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="8" xtrc="entry:16;44:37" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/listOfTerms.dita"/>
+                        </row>
+                        <row class="- topic/row ">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="9" xtrc="entry:17;47:37" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/listOfTerms.dita"/>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="9" xtrc="entry:18;48:37" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/listOfTerms.dita"/>
+                        </row>
+                        <row class="- topic/row ">
+                            <entry class="- topic/entry " colname="col1" dita-ot:x="1" dita-ot:y="10" xtrc="entry:19;51:37" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/listOfTerms.dita"/>
+                            <entry class="- topic/entry " colname="col2" dita-ot:x="2" dita-ot:y="10" xtrc="entry:20;52:37" xtrf="file:/C:/Users/Anna/AppData/Local/Temp/OxygenXMLTemp/ditaTemporaryOutputDir-1553008292265/t1/t2/t3/t4/t5/listOfTerms.dita"/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+    </body>
+</topic></map>

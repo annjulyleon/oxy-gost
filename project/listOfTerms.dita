@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="listOfTerms" outputclass="hide-bm-labels">
+    <title>Перечень сокращений</title>
+    <body>
+        <p>
+            <table frame="none" rowsep="0" colsep="0" id="table_xgz_bv1_4gb" outputclass="hide-title">
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="3.65*"/>
+                    <tbody>
+                        <row>
+                            <entry>CSS</entry>
+                            <entry>(англ. Cascading Style Sheets — каскадные таблицы стилей)
+                                формальный язык описания внешнего вида документа, написанного с
+                                использованием языка разметки;</entry>
+                        </row>
+                        <row>
+                            <entry>ИС</entry>
+                            <entry>информационная система</entry>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry/>
+                        </row>
+                        <row>
+                            <entry/>
+                            <entry/>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table>
+        </p>
+    </body>
+</topic>

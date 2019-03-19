@@ -1,0 +1,93 @@
+*[class~="topic/ol"],
+*[class~="topic/li"],
+*[class~="topic/ol"] > *[class~="topic/li"] *[class~="topic/ol"],
+*[class~="topic/ol"] > *[class~="topic/li"] *[class~="topic/ol"] > *[class~="topic/li"],
+*[class~="topic/ul"] > *[class~="topic/li"],
+*[class~="topic/ul"] > *[class~="topic/li"] *[class~="topic/ul"],
+*[class~="topic/ul"] > *[class~="topic/li"] *[class~="topic/ul"] > *[class~="topic/li"]  {
+	list-style-type: none !important;
+}
+
+*[class~="topic/li"],
+*[class~="topic/ol"]  > *[class~="topic/li"] *[class~="topic/ol"] > *[class~="topic/li"],
+*[class~="topic/ul"]  > *[class~="topic/li"] *[class~="topic/ul"] > *[class~="topic/li"]
+{
+	margin-left: 32px;
+	text-indent: 0px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+*[class~="topic/ul"], *[class~="topic/ol"] {
+    margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+*[class~="topic/ol"] li::before {
+	margin-right: 5px;
+	width: 1em;
+	text-align: left;
+	display: inline-block;
+}
+
+*[class~="topic/ul"] li::before {
+	margin-right: 5px;
+	text-align: left;
+}
+/* Нумерованный список - 1 уровень */
+
+*[class~="topic/ol"] li:nth-child(1)::before { content: 'а)'; }
+*[class~="topic/ol"] li:nth-child(2)::before { content: 'б)'; }
+*[class~="topic/ol"] li:nth-child(3)::before { content: 'в)'; }
+*[class~="topic/ol"] li:nth-child(4)::before { content: 'г)'; }
+*[class~="topic/ol"] li:nth-child(5)::before { content: 'д)'; }
+*[class~="topic/ol"] li:nth-child(6)::before { content: 'е)'; }
+*[class~="topic/ol"] li:nth-child(7)::before { content: 'ж)'; }
+*[class~="topic/ol"] li:nth-child(8)::before { content: 'и)'; }
+*[class~="topic/ol"] li:nth-child(9)::before { content: 'к)'; }
+*[class~="topic/ol"] li:nth-child(10)::before { content: 'л)'; }
+*[class~="topic/ol"] li:nth-child(11)::before { content: 'м)'; }
+*[class~="topic/ol"] li:nth-child(12)::before { content: 'н)'; }
+*[class~="topic/ol"] li:nth-child(13)::before { content: 'о)'; }
+*[class~="topic/ol"] li:nth-child(14)::before { content: 'п)'; }
+*[class~="topic/ol"] li:nth-child(15)::before { content: 'р)'; }
+
+/* Нумерованный список - 2 уровень */
+
+*[class~="topic/ol"]  > *[class~="topic/li"] *[class~="topic/ol"] li:nth-child(1)::before { content: '1)'; }
+*[class~="topic/ol"]  > *[class~="topic/li"] *[class~="topic/ol"] li:nth-child(2)::before { content: '2)'; }
+*[class~="topic/ol"]  > *[class~="topic/li"] *[class~="topic/ol"] li:nth-child(3)::before { content: '3)'; }
+*[class~="topic/ol"]  > *[class~="topic/li"] *[class~="topic/ol"] li:nth-child(4)::before { content: '4)'; }
+*[class~="topic/ol"]  > *[class~="topic/li"] *[class~="topic/ol"] li:nth-child(5)::before { content: '5)'; }
+*[class~="topic/ol"]  > *[class~="topic/li"] *[class~="topic/ol"] li:nth-child(6)::before { content: '6)'; }
+*[class~="topic/ol"]  > *[class~="topic/li"] *[class~="topic/ol"] li:nth-child(7)::before { content: '7)'; }
+*[class~="topic/ol"]  > *[class~="topic/li"] *[class~="topic/ol"] li:nth-child(8)::before { content: '8)'; }
+*[class~="topic/ol"]  > *[class~="topic/li"] *[class~="topic/ol"] li:nth-child(9)::before { content: '9)'; }
+*[class~="topic/ol"]  > *[class~="topic/li"] *[class~="topic/ol"] li:nth-child(10)::before { content: '10)'; }
+*[class~="topic/ol"]  > *[class~="topic/li"] *[class~="topic/ol"] li:nth-child(11)::before { content: '11)'; }
+*[class~="topic/ol"]  > *[class~="topic/li"] *[class~="topic/ol"] li:nth-child(12)::before { content: '12)'; }
+*[class~="topic/ol"]  > *[class~="topic/li"] *[class~="topic/ol"] li:nth-child(13)::before { content: '13)'; }
+*[class~="topic/ol"]  > *[class~="topic/li"] *[class~="topic/ol"] li:nth-child(14)::before { content: '14)'; }
+*[class~="topic/ol"]  > *[class~="topic/li"] *[class~="topic/ol"] li:nth-child(15)::before { content: '15)'; }
+
+/* Ненумерованный список - 1 уровень */
+
+*[class~="topic/ul"] > *[class~="topic/li"]::before { content: '\2013 '; } /* дефис */
+
+/* Ненумерованный список - 2 уровень */
+
+*[class~="topic/ul"]  > *[class~="topic/li"] *[class~="topic/ul"] li:nth-child(1)::before { content: 'а)'; }
+*[class~="topic/ul"]  > *[class~="topic/li"] *[class~="topic/ul"] li:nth-child(2)::before { content: 'б)'; }
+*[class~="topic/ul"]  > *[class~="topic/li"] *[class~="topic/ul"] li:nth-child(3)::before { content: 'в)'; }
+*[class~="topic/ul"]  > *[class~="topic/li"] *[class~="topic/ul"] li:nth-child(4)::before { content: 'г)'; }
+*[class~="topic/ul"]  > *[class~="topic/li"] *[class~="topic/ul"] li:nth-child(5)::before { content: 'д)'; }
+*[class~="topic/ul"]  > *[class~="topic/li"] *[class~="topic/ul"] li:nth-child(6)::before { content: 'е)'; }
+*[class~="topic/ul"]  > *[class~="topic/li"] *[class~="topic/ul"] li:nth-child(7)::before { content: 'ж)'; }
+*[class~="topic/ul"]  > *[class~="topic/li"] *[class~="topic/ul"] li:nth-child(8)::before { content: 'и)'; }
+*[class~="topic/ul"]  > *[class~="topic/li"] *[class~="topic/ul"] li:nth-child(9)::before { content: 'к)'; }
+*[class~="topic/ul"]  > *[class~="topic/li"] *[class~="topic/ul"] li:nth-child(10)::before { content: 'л)'; }
+*[class~="topic/ul"]  > *[class~="topic/li"] *[class~="topic/ul"] li:nth-child(11)::before { content: 'м)'; }
+*[class~="topic/ul"]  > *[class~="topic/li"] *[class~="topic/ul"] li:nth-child(12)::before { content: 'н)'; }
+*[class~="topic/ul"]  > *[class~="topic/li"] *[class~="topic/ul"] li:nth-child(13)::before { content: 'о)'; }
+*[class~="topic/ul"]  > *[class~="topic/li"] *[class~="topic/ul"] li:nth-child(14)::before { content: 'п)'; }
+*[class~="topic/ul"]  > *[class~="topic/li"] *[class~="topic/ul"] li:nth-child(15)::before { content: 'р)'; }

@@ -1,0 +1,47 @@
+/* Настройка полей, размеров страниц, альбомных листов, листа регистрации и нумерации страниц, шрифта для элементов */
+@import "../common/gosthtml/ge-page-setup.css";
+
+/* Настройка титульного листа*/
+@import "../common/gosthtml/ge-cover.css";
+
+/* Настройка списков */
+@import "../common/gosthtml/ge-lists.css";
+
+/* Настройка таблиц.
+Доп. классы: 
+auto_tbl - динамическая таблица, 
+rotated - повернуть текст в ячейке 
+*/
+@import "../common/gosthtml/ge-tables.css";
+
+/* Настройка рисунков */
+@import "../common/gosthtml/ge-figures.css";
+
+/* Настройка нумерации глав и разделов, 
+настройка содержания 
+Доп. классы: 
+hide-bm-labels - класс для сокрытия номера раздела из содержания */
+@import "../common/gosthtml/ge-numbering.css";
+
+/** Руссификация 
+@import "../common/p-i18n-ru.css";  # содержит остальные строки, подключать по необходимости**/
+@import "../common/gosthtml/ge-ru.css";
+
+/* Стили только для этого проекта */
+
+@page front-page {
+	@bottom-center {
+		content: "2019";
+		font-family: "Liberation Serif", "PT Serif", serif !important;
+		font-size: 16px;		
+		}
+}
+
+@page front-page {
+@top-center {
+		content: "МИНИСТЕРСТВО ТАПОК И НОСКОВ";
+		font-family: "Liberation Serif", "PT Serif", serif !important;
+		font-size: 16px;
+	}	
+}
+

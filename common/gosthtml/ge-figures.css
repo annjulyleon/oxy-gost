@@ -1,0 +1,7 @@
+figcaption {
+    text-align: center;
+}
+
+[class~="topic/fig"] {
+	page-break-inside: avoid !important;
+}

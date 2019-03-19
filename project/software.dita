@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="vzh-software">
+    <title>Использование набора</title>
+    <body>
+        <p>Набор стилей проверен на версии OxygenXML 20.1 и OxygenXML 21.0</p>
+        <p conkeyref="keys/systemPurporse"/>
+        <p>Структура проекта отображена на рисунке <xref href="#vzh-software/fig_djn_s3l_dhb"
+                format="dita"/>. <fig id="fig_djn_s3l_dhb">
+                <title>Структура проекта</title>
+                <image placement="break" href="img/structure.jpg" align="center"
+                    id="image_ejn_s3l_dhb"/>
+            </fig></p>
+        <p>Настройка OxygenXML для работы со стилями: <ol id="ol_o2w_2pl_dhb">
+                <li>чтобы рисунки и таблицы назывались «Рисунок 1 - …», «Таблица 1 - …»  и
+                    «Содержание» нужно подключить CSS с локализованными строками, например, в этом
+                    проекте подключен файл ge-ru.css, в котором эти названия локализованы (вы можете
+                    использовать свой); </li>
+                <li>чтобы ссылки на рисунки и таблицы были просто цифрой (без «Рисунок »), нужно в
+                    файле <i>C:\Program Files\Oxygen XML Editor
+                        21\frameworks\dita\DITA-OT3.x\plugins\org.dita.pdf2\cfg\common\vars\ru.xml</i>
+                    поправить строки <i>&lt;variable id="Figure Number"></i> и <i>&lt;variable
+                        id="Table Number"></i> (уберите надписи <i>Рисунок</i> и <i>Таблица</i> и
+                    сохраните файл).</li>
+            </ol></p>
+        <p>Для вывода pdf используется сценарий на основе стандартного DITA Map PDF - based on HTML5
+            &amp; CSS. Сценайри трансформации сохранен в этом проекте. Параметры указаны в таблице
+                <xref href="#vzh-software/table_bwk_4ml_dhb" format="dita"/>.<table frame="all"
+                rowsep="1" colsep="1" id="table_bwk_4ml_dhb">
+                <title>Параметры трансформации</title>
+                <tgroup cols="2">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>Параметр</entry>
+                            <entry>Значение</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>args.css</entry>
+                            <entry>${pd}/style.css</entry>
+                        </row>
+                        <row>
+                            <entry>args.figurelink.style</entry>
+                            <entry>NUMBER</entry>
+                        </row>
+                        <row>
+                            <entry>args.input</entry>
+                            <entry>${cf}</entry>
+                        </row>
+                        <row>
+                            <entry>args.tablelink.style</entry>
+                            <entry>NUMBER</entry>
+                        </row>
+                        <row>
+                            <entry>default.language</entry>
+                            <entry>ru</entry>
+                        </row>
+                        <row>
+                            <entry>figure.title.placement</entry>
+                            <entry>bottom</entry>
+                        </row>
+                        <row>
+                            <entry>fix.external.refx.com.oxygenxml</entry>
+                            <entry>true</entry>
+                        </row>
+                        <row>
+                            <entry>generate.copy.outer</entry>
+                            <entry>3</entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table></p>
+    </body>
+</topic>
